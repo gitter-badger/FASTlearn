@@ -1,4 +1,7 @@
 site_name: FASTlearn
+formats:
+  - epub
+  - pdf
 markdown_extensions:
     - admonition
 theme:
