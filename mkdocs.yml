@@ -1,7 +1,10 @@
 site_name: FASTlearn
 markdown_extensions:
-    - smarty
-    - extra
+    - toc:
+        permalink: 
+    - admonition
+    - attr_list
+    - def_list
 theme:
     name: readthedocs
 nav:
