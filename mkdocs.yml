@@ -1,5 +1,9 @@
-site_name: FASTlearn 快速学习
+site_name: FASTlearn
 theme:
     name: readthedocs
 nav:
-    - 开始 : 'pol/4.1.md'
+    - 政治 :
+        - 必修三 :
+            - 第一单元 : pol/3.1.md
+        - 必修四 :
+            - 第一单元 : pol/4.1.md
