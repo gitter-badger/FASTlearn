@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# 欢迎来到FASTlearn
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+也许有用的学习资料。
 
-## Commands
+👀拉取请求和STAR
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 致谢名单
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [HYH!](https://github.com/huangyinhaow)
+- [xiexuan-lang](https://github.com/xiexuan-lang)
+- 
