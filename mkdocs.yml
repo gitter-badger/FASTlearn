@@ -3,6 +3,7 @@ markdown_extensions:
     - admonition
 theme:
     name: readthedocs
+    locale : zh_CN
 nav:
     - 政治 :
         - 必修三 :
