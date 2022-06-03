@@ -1,4 +1,7 @@
 site_name: FASTlearn
+markdown_extensions:
+    - smarty
+    - extra
 theme:
     name: readthedocs
 nav:
