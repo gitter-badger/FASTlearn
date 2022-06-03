@@ -1,5 +1,6 @@
 site_name: FASTlearn
-# markdown_extensions:
+markdown_extensions:
+    - admonition
 theme:
     name: readthedocs
 nav:
