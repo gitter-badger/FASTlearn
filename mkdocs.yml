@@ -1,0 +1,5 @@
+site_name: FASTlearn 快速学习
+theme:
+    name: readthedocs
+nav:
+    - 开始 : 'pol/4.1.md'
