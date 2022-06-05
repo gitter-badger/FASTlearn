@@ -1,16 +1,30 @@
 site_name: FASTlearn
+plugins:
+  - search:
+        lang:
+            - en
+            - ja
+        separator: '[\s\u200b\-]'
 markdown_extensions:
     - admonition
     - extra
     - smarty
     - toc
 theme:
-    name: readthedocs
+    name: material
+    logo: theme/logo.png
+    font:
+        text: Noto Serif Simplified Chinese
     locale : zh_CN
+    language: zh
 nav:
     - 主页 : index.md
     - 政治 :
         - 必修三 :
-            - '3.1 中国共产党的领导' : pol/3.1.md
+            - '3.1' : pol/3.1.md
+            - '3.2' : pol/3.2.md
+            - '3.3' : pol/3.3.md
         - 必修四 :
-            - '4.1 探索世界与把握规律' : pol/4.1.md
+            - '4.1' : pol/4.1.md
+            - '4.2' : pol/4.2.md
+            - '4.3' : pol/4.3.md
