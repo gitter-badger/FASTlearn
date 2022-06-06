@@ -1,36 +1,36 @@
 site_name: FASTlearn
 plugins:
   - search:
-        lang:
-            - en
-            - ja
-        separator: '[\s\u200b\-]'
+      lang:
+        - en
+        - ja
+      separator: '[\s\u200b\-]'
 markdown_extensions:
-    - pymdownx.arithmatex:
-        generic: true
-    - admonition
-    - extra
-    - smarty
-    - toc
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - extra
+  - smarty
+  - toc
 theme:
-    name: material
-    logo: theme/logo.png
-    font:
-        text: Noto Serif Simplified Chinese
-    locale : zh_CN
-    language: zh
+  name: material
+  logo: theme/logo.png
+  font:
+    text: Noto Serif Simplified Chinese
+  locale: zh_CN
+  language: zh
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - http://cdnjs.huangyinhao.top/tex-mml-chtml.js
+  - javascripts/polyfill.min.js?features=es6
+  - javascripts/es5/tex-mml-chtml.js
 nav:
-    - 主页 : index.md
-    - 政治 :
-        - 必修三 :
-            - '中国共产党的领导' : pol/3.1.md
-            - '人民当家作主' : pol/3.2.md
-            - '全面依法治国' : pol/3.3.md
-        - 必修四 :
-            - '探索世界和把握规律' : pol/4.1.md
-            - '认识社会和价值选择' : pol/4.2.md
-            - '文化传承和文化创新' : pol/4.3.md
+  - 主页: index.md
+  - 政治:
+      - 必修三:
+          - "中国共产党的领导": pol/3.1.md
+          - "人民当家作主": pol/3.2.md
+          - "全面依法治国": pol/3.3.md
+      - 必修四:
+          - "探索世界和把握规律": pol/4.1.md
+          - "认识社会和价值选择": pol/4.2.md
+          - "文化传承和文化创新": pol/4.3.md
