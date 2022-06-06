@@ -27,7 +27,6 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.tabs
-    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
