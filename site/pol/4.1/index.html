@@ -8,7 +8,7 @@
       
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../logo/logo.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.1">
     
     
@@ -28,12 +28,6 @@
     
     
       
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+Simplified+Chinese:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Noto Serif Simplified Chinese";--md-code-font:"Roboto Mono"}</style>
-      
     
     
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -47,12 +41,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -76,7 +74,7 @@
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="../.." title="FASTlearn" class="md-header__button md-logo" aria-label="FASTlearn" data-md-component="logo">
       
-  <img src="../../theme/logo.png" alt="logo">
+  <img src="../../logo/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -99,6 +97,28 @@
       </div>
     </div>
     
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
     
     
       <label class="md-header__button md-icon" for="__search">
@@ -120,6 +140,8 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -135,6 +157,18 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/Github-DVIA/FASTlearn" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Github-DVIA/FASTlearn
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -143,6 +177,64 @@
       
       
         
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      主页
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../tags/" class="md-tabs__link">
+      标签
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../3.1/" class="md-tabs__link md-tabs__link--active">
+        政治
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
           
         
       
@@ -156,16 +248,32 @@
                   <div class="md-sidebar__inner">
                     
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="FASTlearn" class="md-nav__button md-logo" aria-label="FASTlearn" data-md-component="logo">
       
-  <img src="../../theme/logo.png" alt="logo">
+  <img src="../../logo/logo.png" alt="logo">
 
     </a>
     FASTlearn
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Github-DVIA/FASTlearn" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Github-DVIA/FASTlearn
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -190,6 +298,21 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        标签
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -197,18 +320,24 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_2">
+      
+        <label class="md-nav__link" for="__nav_3">
           政治
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="政治" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           政治
         </label>
@@ -220,21 +349,31 @@
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_2_1">
+      
+        <label class="md-nav__link" for="__nav_3_1">
           必修三
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="必修三" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_1">
+        <label class="md-nav__title" for="__nav_3_1">
           <span class="md-nav__icon md-icon"></span>
           必修三
         </label>
@@ -297,21 +436,31 @@
   
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_2_2">
+      
+        <label class="md-nav__link" for="__nav_3_2">
           必修四
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="必修四" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_2">
+        <label class="md-nav__title" for="__nav_3_2">
           <span class="md-nav__icon md-icon"></span>
           必修四
         </label>
@@ -629,279 +778,86 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    时代精神的精华
-  </a>
-  
-    <nav class="md-nav" aria-label="时代精神的精华">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    追求智慧的学问
-  </a>
-  
-    <nav class="md-nav" aria-label="追求智慧的学问">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    哲学的起源
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    哲学的影响
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    哲学与世界观
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    哲学与方法论
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    哲学与具体科学
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    哲学的基本问题
-  </a>
-  
-    <nav class="md-nav" aria-label="哲学的基本问题">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
-    唯物主义的形态
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
-    唯心主义的形态
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
-    马克思主义哲学
-  </a>
-  
-    <nav class="md-nav" aria-label="马克思主义哲学">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_13" class="md-nav__link">
-    人民性
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_14" class="md-nav__link">
-    科学性 革命性
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_15" class="md-nav__link">
-    马克思主义的中国化
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_16" class="md-nav__link">
-    探究世界的本质
-  </a>
-  
-    <nav class="md-nav" aria-label="探究世界的本质">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_17" class="md-nav__link">
-    世界是物质的
-  </a>
-  
-    <nav class="md-nav" aria-label="世界是物质的">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_18" class="md-nav__link">
-    自然界是物质的
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_19" class="md-nav__link">
-    人类社会是物质的
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_20" class="md-nav__link">
-    物质产生意识
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_21" class="md-nav__link">
-    运动都是有规律的
-  </a>
-  
-    <nav class="md-nav" aria-label="运动都是有规律的">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_22" class="md-nav__link">
-    规律是客观的
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_23" class="md-nav__link">
-    正确地发挥主观能动性
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_24" class="md-nav__link">
-    把握世界的规律
-  </a>
-  
-    <nav class="md-nav" aria-label="把握世界的规律">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_25" class="md-nav__link">
-    世界是普遍联系的
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
 
+  
 
-<h1 id="_1">探索世界与把握规律</h1>
+  <nav class="md-tags" >
+    
+      
+        <a href="../../tags/#" class="md-tag">
+          政治
+        </a>
+      
+    
+      
+        <a href="../../tags/#" class="md-tag">
+          哲学
+        </a>
+      
+    
+      
+        <a href="../../tags/#" class="md-tag">
+          唯心主义
+        </a>
+      
+    
+      
+        <a href="../../tags/#" class="md-tag">
+          唯物主义
+        </a>
+      
+    
+      
+        <a href="../../tags/#" class="md-tag">
+          世界观
+        </a>
+      
+    
+      
+        <a href="../../tags/#" class="md-tag">
+          方法论
+        </a>
+      
+    
+      
+        <a href="../../tags/#" class="md-tag">
+          马克思主义
+        </a>
+      
+    
+  </nav>
+
+
+
+<h1 id="_1">探索世界与把握规律<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p>哲学本单元，我们要理解<strong>什么是哲学</strong>，什么样的哲学是<strong>真正的哲学</strong>，什么样的哲学是<strong>科学的哲学</strong>；哲学<strong>对于我们的意义</strong>是什么；以及什么是<strong>马克思主义哲学的基本思想</strong>。</p>
 <hr />
-<h2 id="_2">时代精神的精华</h2>
-<h3 id="_3">追求智慧的学问</h3>
+<h2 id="_2">时代精神的精华<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">追求智慧的学问<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <p>“哲”，即智慧。哲学是<strong>智慧</strong>之学和<strong>追求智慧</strong>之学。</p>
-<h4 id="_4">哲学的起源</h4>
+<h4 id="_4">哲学的起源<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
 <p>人们在<strong>生活实践</strong>中对宇宙和人生的<strong>追问</strong>和<strong>思考</strong>。</p>
-<h4 id="_5">哲学的影响</h4>
+<h4 id="_5">哲学的影响<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
 <p><strong>直接或间接地</strong>影响着我们的学习工作生活。</p>
-<h4 id="_6">哲学与世界观</h4>
+<h4 id="_6">哲学与世界观<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
 <p>哲学是<strong>系统化</strong>和<strong>理论化</strong>的世界观。</p>
-<h4 id="_7">哲学与方法论</h4>
+<h4 id="_7">哲学与方法论<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
 <p><strong>有什么样的世界观就有什么样的方法论。</strong> 方法论指导人去认识和改造世界。</p>
-<h4 id="_8">哲学与具体科学</h4>
+<h4 id="_8">哲学与具体科学<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
 <p>哲学对<strong>具体科学</strong>进行概括和升华。抽象出最一般的本质和最一般的规律。</p>
 <p>哲学为具体科学提供<strong>世界观</strong>和<strong>方法论</strong>的指导。</p>
-<h3 id="_9">哲学的基本问题</h3>
+<h3 id="_9">哲学的基本问题<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
 <p><strong>思维</strong>与<strong>存在</strong>（意识与物质）：</p>
 <ul>
 <li>何者是本源？（谁决定谁？）</li>
 <li>二者有没有同一性？（意识能否正确认识存在？）</li>
 </ul>
-<h4 id="_10">唯物主义的形态</h4>
+<h4 id="_10">唯物主义的形态<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
 <ul>
 <li>
 <p>古代朴素唯物主义（物质混同于物质的具体形态）</p>
@@ -913,7 +869,7 @@
 <p><strong>辩证唯物主义与历史唯物主义</strong>（<strong>科学的</strong>马克思主义哲学）</p>
 </li>
 </ul>
-<h4 id="_11">唯心主义的形态</h4>
+<h4 id="_11">唯心主义的形态<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h4>
 <ul>
 <li>
 <p>主观唯心主义，（世界依赖与人的精神）</p>
@@ -922,43 +878,43 @@
 <p>客观唯心主义。（世界依赖于客观精神，如神、理念）</p>
 </li>
 </ul>
-<h3 id="_12">马克思主义哲学</h3>
+<h3 id="_12">马克思主义哲学<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <p>马克思主义哲学的独特理论品质是<strong>与时俱进</strong>。</p>
-<h4 id="_13">人民性</h4>
+<h4 id="_13">人民性<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h4>
 <p>站在人民立场，目标实现人类解放。</p>
-<h4 id="_14">科学性 革命性</h4>
+<h4 id="_14">科学性 革命性<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h4>
 <p>揭示了世界的本质与运行规律。</p>
-<h4 id="_15">马克思主义的中国化</h4>
+<h4 id="_15">马克思主义的中国化<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h4>
 <p>毛思想 - 邓理论 - 三代表 - 科发展 - 习思想</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>习近平新时代中国特色社会主义思想是当代中国马克思主义、二十一世纪马克思主义，是中华文化和中国精神的时代精华，实现了马克思主义中国化的新飞跃。</p>
 </div>
-<h2 id="_16">探究世界的本质</h2>
-<h3 id="_17">世界是物质的</h3>
+<h2 id="_16">探究世界的本质<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h2>
+<h3 id="_17">世界是物质的<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
 <p>世界是物质的世界，世界的真正统一性在于他的物质性。</p>
-<h4 id="_18">自然界是物质的</h4>
+<h4 id="_18">自然界是物质的<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h4>
 <p>物质具有：</p>
 <ul>
 <li>先在性</li>
 <li>客观实在性 ← <strong>唯一特性</strong></li>
 </ul>
-<h4 id="_19">人类社会是物质的</h4>
+<h4 id="_19">人类社会是物质的<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h4>
 <p>人类是从古猿<strong>发展</strong>来的，人类社会和人都是不断<strong>发展</strong>的。</p>
 <p>人类社会本质是客观的物质体系。</p>
-<h4 id="_20">物质产生意识</h4>
+<h4 id="_20">物质产生意识<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>意识是人脑对客观存在主观反映。</strong> 只有人有意识，动物或人工智能没有意识。</li>
 <li><strong>意识仅仅是物质的派生物。</strong> 物质的长期发展产生了意识，原本没有意识。</li>
 <li><strong>物质决定了意识，</strong> 意识不能决定物质。</li>
 </ul>
-<h3 id="_21">运动都是有规律的</h3>
+<h3 id="_21">运动都是有规律的<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
 <p>哲学上的运动是指宇宙间一切事物、现象的<strong>变化</strong>和<strong>过程</strong>。</p>
 <p><strong>根本不存在</strong>脱离运动的物质。</p>
-<h4 id="_22">规律是客观的</h4>
+<h4 id="_22">规律是客观的<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h4>
 <p>规律是客观的、不以人的意志为转移的。</p>
 <p>规律不能<strong>被消灭</strong>，也不能<strong>被创造</strong>。</p>
-<h4 id="_23">正确地发挥主观能动性</h4>
+<h4 id="_23">正确地发挥主观能动性<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h4>
 <ul>
 <li>世界可以被人能动地认识，<strong>只有尚未认识之物，没有不可认识之物。</strong></li>
 <li>世界可以被人能动地改造，意识指导人的改造。</li>
@@ -973,14 +929,29 @@
 <li>唯意志主义</li>
 <li>片面强调客观条件，安于现状、因循守旧、无所作为的思想</li>
 </ul>
-<h3 id="_24">把握世界的规律</h3>
-<h4 id="_25">世界是普遍联系的</h4>
+<h3 id="_24">把握世界的规律<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<h4 id="_25">世界是普遍联系的<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h4>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      最后更新:
+      2022-06-06
+    
+  </small>
+</div>
 
               
             </article>
             
           </div>
         </div>
+        
+          <a href="#" class="md-top md-top--hidden md-icon" data-md-component="top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            回到页面顶部
+          </a>
         
       </main>
       
@@ -1026,6 +997,10 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2008 - Now DVIA
+    </div>
+  
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -1042,7 +1017,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b028fd86.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.highlight", "navigation.instant", "navigation.top", "navigation.expand", "navigation.sections", "navigation.indexes", "navigation.tabs", "toc.integrate"], "search": "../../assets/javascripts/workers/search.b028fd86.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.7f366e99.min.js"></script>
