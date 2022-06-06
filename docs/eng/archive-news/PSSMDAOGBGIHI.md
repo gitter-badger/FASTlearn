@@ -1,10 +1,13 @@
-# Philly’s South Street massacre demands action on guns, but GOP isn’t having it
+# Philly’s South Street massacre demands action on guns, but GOP isn’t having it | Will Bunch
 
-# 费城南街大屠杀要求对枪支采取行动，但共和党没有
+# 费城南街大屠杀要求对枪支采取行动，但共和党没有 | Will Bunch
 
 *The popular Philly nightlife scene is the latest site terrorized by rapid gunfire, with no sign that the GOP in Harrisburg or D.C. will do anything.*
 
 *受欢迎的费城夜生活场景是最新的被快速枪声恐吓的场所，没有迹象表明哈里斯堡或华盛顿特区的共和党会采取任何行动。*
+
+![图 1](images/3564466e3987f56ce873684c0956fe7912f4e955b2b33fa1baa76154b377d8b1.png)  
+
 
 Philadelphia police tape off an area at Third and South Streets near the scene of a mass shooting late Saturday.
 
@@ -25,6 +28,9 @@ Any personal relief was small consolation, though, amid the sickening feeling th
 But people need to understand — it’s even worse than that. Just the Memorial Day weekend before, Philadelphia experienced — without much fanfare — a kind of a mini-Uvalde of a whopping 14 people killed by bullets, including a 37-year-old dad and his 9-year-old son sprayed by bullets in a car after coming home from a cookout, and a 1 a.m. shootout at an East Tioga Street party that left two women dead and wounded two others, including a 14-year-old girl. That the bloodshed wasn’t all in one place by one gunman apparently makes it less newsworthy, but arguably 16 shootings in one weekend in one city is more terrifying than one big one.
 
 但人们需要理解——情况比这更糟。就在之前的阵亡将士纪念日周末，费城经历了一场——没有大张旗鼓——一种迷你乌瓦尔德，多达 14 人被子弹杀死，其中包括一名 37 岁的父亲和他 9 岁的儿子被子弹击中。野餐回家后的一辆汽车，以及凌晨 1 点在东 Tioga 街的一次派对上发生的枪战，造成两名妇女死亡，另外两人受伤，其中包括一名 14 岁的女孩。流血事件并非全部发生在一名枪手身上，这显然使其不那么具有新闻价值，但可以说，一个城市的一个周末发生 16 起枪击事件比一个大事件更可怕。
+
+![图 2](images/5b812fb012f5afa0758599998312b8e2359b9de9d50ad00dd6ee5de367e58d27.png "Blood stains the sidewalk at Third and South Streets in Philadelphia on Sunday, the morning after three people were killed and 11 others wounded in a shooting late Saturday night.")  
+
 
 Because that’s what gun violence in America has become in 2022 — a vast, all-encompassing form of terrorism. Despite murder rates in Philadelphia and other locales rising to unacceptable levels, and despite the slew of mass shootings with AR-15-style killing machines, the odds that you personally will be shot remain small. But both the rising fear of violence — especially in cities that have spent decades climbing back from late-20th-century despair — and the demoralizing stories of helpless children cut down by bullets have created a wider sense of hopelessness about the American Experiment and whether it can be saved.
 
