@@ -24,11 +24,26 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.expand
+    - navigation.sections
+    - navigation.indexes
     - navigation.tabs
+    - toc.integrate
   palette:
-    scheme: slate
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
   name: material
   logo: logo/logo.png
+  favicon: logo/logo.png
   font: false
   locale: zh_CN
   language: zh
@@ -51,3 +66,4 @@ nav:
 repo_url: https://github.com/Github-DVIA/FASTlearn
 repo_name: Github-DVIA/FASTlearn
 copyright: Copyright &copy; 2008 - Now DVIA
+edit_uri: ""
