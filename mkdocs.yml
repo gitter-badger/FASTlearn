@@ -57,6 +57,9 @@ nav:
   - 英语:
       - "新闻存档":
           - "NY-22.6.6": eng/archive-news/PSSMDAOGBGIHI.md
+  - 物理:
+      - 必修三:
+          - "静电场的描述": phy/3.1.md
   - 政治:
       - 必修三:
           - "中国共产党的领导": pol/3.1.md
