@@ -27,6 +27,7 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     - scheme: default
       primary: indigo
