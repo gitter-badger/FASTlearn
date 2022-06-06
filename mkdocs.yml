@@ -42,8 +42,8 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
   name: material
-  logo: logo/logo.png
-  favicon: logo/logo.png
+  logo: logo/LOGO.png
+  favicon: logo/LOGO.png
   font: false
   locale: zh_CN
   language: zh
