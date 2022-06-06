@@ -8,7 +8,6 @@
 
 ![图 1](images/3564466e3987f56ce873684c0956fe7912f4e955b2b33fa1baa76154b377d8b1.png)  
 
-
 Philadelphia police tape off an area at Third and South Streets near the scene of a mass shooting late Saturday.
 
 费城警方在周六晚间大规模枪击现场附近的第三街和南街的一个区域进行了录像。
@@ -30,7 +29,6 @@ But people need to understand — it’s even worse than that. Just the Memorial
 但人们需要理解——情况比这更糟。就在之前的阵亡将士纪念日周末，费城经历了一场——没有大张旗鼓——一种迷你乌瓦尔德，多达 14 人被子弹杀死，其中包括一名 37 岁的父亲和他 9 岁的儿子被子弹击中。野餐回家后的一辆汽车，以及凌晨 1 点在东 Tioga 街的一次派对上发生的枪战，造成两名妇女死亡，另外两人受伤，其中包括一名 14 岁的女孩。流血事件并非全部发生在一名枪手身上，这显然使其不那么具有新闻价值，但可以说，一个城市的一个周末发生 16 起枪击事件比一个大事件更可怕。
 
 ![图 2](images/5b812fb012f5afa0758599998312b8e2359b9de9d50ad00dd6ee5de367e58d27.png "Blood stains the sidewalk at Third and South Streets in Philadelphia on Sunday, the morning after three people were killed and 11 others wounded in a shooting late Saturday night.")  
-
 
 Because that’s what gun violence in America has become in 2022 — a vast, all-encompassing form of terrorism. Despite murder rates in Philadelphia and other locales rising to unacceptable levels, and despite the slew of mass shootings with AR-15-style killing machines, the odds that you personally will be shot remain small. But both the rising fear of violence — especially in cities that have spent decades climbing back from late-20th-century despair — and the demoralizing stories of helpless children cut down by bullets have created a wider sense of hopelessness about the American Experiment and whether it can be saved.
 
