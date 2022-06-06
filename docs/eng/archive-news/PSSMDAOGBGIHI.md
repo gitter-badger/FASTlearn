@@ -85,3 +85,5 @@ So the best-case scenario is a two-America strategy — a union of blue states w
 America reached a point in 1861 where compromise was impossible, and amazingly we are again reaching that point today. The true moral majority of Americans must, with nonviolence, do whatever they can — at the ballot box in November, in our communities and in the streets, if necessary — to marginalize the indefensible, as happened in the 1960s with segregation. The alternatives are increasingly unthinkable.
 
 美国在 1861 年达到了不可能妥协的地步，令人惊讶的是，我们今天再次达到了那个地步。 真正道德上的大多数美国人必须在非暴力的情况下，尽其所能——在 11 月的投票箱中，在我们的社区和街头，如有必要——将不可辩护的人边缘化，正如 1960 年代种族隔离所发生的那样。 替代方案越来越难以想象。
+
+![图 1](images/d168dfce27759f621df1aac1a8795e714c1a132a914db54e69946b47db1fa922.png)  
