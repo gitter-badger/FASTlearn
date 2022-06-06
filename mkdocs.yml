@@ -1,5 +1,7 @@
 site_name: FASTlearn
 plugins:
+  - tags:
+      tags_file: tags.md
   - search:
       lang:
         - en
@@ -14,9 +16,8 @@ markdown_extensions:
   - toc
 theme:
   name: material
-  logo: theme/logo.png
-  font:
-    text: Noto Serif Simplified Chinese
+  logo: logo/logo.png
+  font: false
   locale: zh_CN
   language: zh
 extra_javascript:
@@ -25,6 +26,7 @@ extra_javascript:
   - javascripts/es5/tex-mml-chtml.js
 nav:
   - 主页: index.md
+  - 标签索引: tags.md
   - 政治:
       - 必修三:
           - "中国共产党的领导": pol/3.1.md
