@@ -54,6 +54,9 @@ extra_javascript:
 nav:
   - 主页: index.md
   - 标签: tags.md
+  - 英语:
+      - "新闻存档":
+          - "NY-22.6.6": eng/archive-news/PSSMDAOGBGIHI.md
   - 政治:
       - 必修三:
           - "中国共产党的领导": pol/3.1.md
