@@ -1,8 +1,12 @@
 site_name: FASTlearn
 plugins:
+  - with-pdf:
+      enabled_if_env: ENABLE_PDF_EXPORT
+      cover_subtitle: ""
+      output_path: pdf/full.pdf
   - git-revision-date
   - tags:
-      tags_file: tags.md
+      tags_file: art/tags.md
   - search:
       lang:
         - en
@@ -42,34 +46,35 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
   name: material
-  logo: logo/LOGO.png
-  favicon: logo/LOGO.png
+  logo: load/logo/LOGO.png
+  favicon: load/logo/LOGO.png
   font: false
   locale: zh_CN
   language: zh
 extra_javascript:
-  - javascripts/mathjax.js
-  - javascripts/polyfill.min.js?features=es6
-  - javascripts/es5/tex-mml-chtml.js
+  - load/javascripts/mathjax.js
+  - load/javascripts/polyfill.min.js?features=es6
+  - load/javascripts/es5/tex-mml-chtml.js
 nav:
-  - 主页: index.md
-  - 标签: tags.md
+  - 主页: art/index.md
+  - 标签: art/tags.md
   - 英语:
       - "新闻存档":
-          - "NY-22.6.6": eng/archive-news/PSSMDAOGBGIHI.md
+          - "NY-22.6.6": art/eng/archive-news/PSSMDAOGBGIHI.md
   - 物理:
       - 必修三:
-          - "静电场的描述": phy/3.1.md
+          - "静电场的描述": art/phy/3.1.md
   - 政治:
       - 必修三:
-          - "中国共产党的领导": pol/3.1.md
-          - "人民当家作主": pol/3.2.md
-          - "全面依法治国": pol/3.3.md
+          - "中国共产党的领导": art/pol/3.1.md
+          - "人民当家作主": art/pol/3.2.md
+          - "全面依法治国": art/pol/3.3.md
       - 必修四:
-          - "探索世界和把握规律": pol/4.1.md
-          - "认识社会和价值选择": pol/4.2.md
-          - "文化传承和文化创新": pol/4.3.md
+          - "探索世界和把握规律": art/pol/4.1.md
+          - "认识社会和价值选择": art/pol/4.2.md
+          - "文化传承和文化创新": art/pol/4.3.md
 repo_url: https://github.com/Github-DVIA/FASTlearn
 repo_name: Github-DVIA/FASTlearn
+site_author: You!
 copyright: Copyright &copy; 2008 - Now DVIA
 edit_uri: ""
