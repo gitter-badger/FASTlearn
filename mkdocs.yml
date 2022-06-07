@@ -56,7 +56,7 @@ extra_javascript:
   - load/javascripts/polyfill.min.js?features=es6
   - load/javascripts/es5/tex-mml-chtml.js
 nav:
-  - 主页: art/index.md
+  - 主页: index.md
   - 标签: art/tags.md
   - 英语:
       - "新闻存档":
