@@ -1,9 +1,5 @@
 site_name: FASTlearn
 plugins:
-  - with-pdf:
-      enabled_if_env: ENABLE_PDF_EXPORT
-      cover_subtitle: ""
-      output_path: pdf/full.pdf
   - git-revision-date
   - tags:
       tags_file: art/tags.md
@@ -13,6 +9,20 @@ plugins:
         - ja
       separator: '[\s\u200b\-]'
 markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem
   - pymdownx.arithmatex:
       generic: true
   - admonition
