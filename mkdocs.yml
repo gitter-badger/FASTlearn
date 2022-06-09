@@ -69,8 +69,10 @@ nav:
   - 主页: index.md
   - 标签: art/tags.md
   - 英语:
-      - "新闻存档":
-          - "NY-22.6.6": art/eng/archive-news/PSSMDAOGBGIHI.md
+      - "文章":
+          - "肯尼迪登月演讲": art/eng/articles/moon50.md
+      - "新闻":
+          - "纽约时报 2022.6.6": art/eng/archive-news/PSSMDAOGBGIHI.md
   - 物理:
       - 必修三:
           - "静电场的描述": art/phy/3.1.md
@@ -86,5 +88,5 @@ nav:
 repo_url: https://github.com/Github-DVIA/FASTlearn
 repo_name: Github-DVIA/FASTlearn
 site_author: You!
-copyright: Copyright &copy; 2008 - Now DVIA
+copyright: Copyright &copy; 1911 - Now SDYZ
 edit_uri: ""
