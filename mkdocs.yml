@@ -85,6 +85,8 @@ nav:
           - "探索世界和把握规律": art/pol/4.1.md
           - "认识社会和价值选择": art/pol/4.2.md
           - "文化传承和文化创新": art/pol/4.3.md
+  - 帮助: 
+      - 向导: help/guide.md
 repo_url: https://github.com/Github-DVIA/FASTlearn
 repo_name: Github-DVIA/FASTlearn
 site_author: You!
