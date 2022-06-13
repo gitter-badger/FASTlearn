@@ -1,8 +1,10 @@
-window.MathJax = {
+window.MathJax = {  
+    loader: {load: ['[tex]/mhchem']},
     tex: {
       inlineMath: [["\\(", "\\)"]],
       displayMath: [["\\[", "\\]"]],
       processEscapes: true,
+      packages: {'[+]': ['mhchem'],
       processEnvironments: true
     },
     options: {
