@@ -79,9 +79,7 @@ $\mathbf{\lambda(a-b)=\lambda a-\lambda b}$
 $\mathbf{\lambda({\mu_1}a±{\mu_2}b)=\lambda {\mu_1} a±\lambda {\mu_2} b}$
 
 !!! Example
-    $
-    \mathbf{(2a+3b-c)-(3a-2b+c)=2a+3b-c-3a+2b-c=-a+5b-2c}
-    $
+    $\mathbf{(2a+3b-c)-(3a-2b+c)=2a+3b-c-3a+2b-c=-a+5b-2c}$
 
 若 $\mathbf{a}$ 与 $\mathbf{b}$ 共线，则：`b=la`
 
