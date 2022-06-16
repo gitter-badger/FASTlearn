@@ -77,6 +77,7 @@ nav:
       - 公式速查: 
           - 平面向量: art/mat/formula/vector.md
           - 复数: art/mat/formula/complex.md
+          - art/mat/formula/trigonometric.md
   - 物理:
       - 必修三:
           - "静电场的描述": 
