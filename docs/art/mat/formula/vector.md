@@ -125,10 +125,10 @@ $\mathbf{a-b} = (x_1 - x_2, y_1 - y_2)$
 
 $\lambda \mathbf{a}=(\lambda x, \lambda y)$
 
-两个向量的数量积等于它们对应坐标的乘积的和，即：
+两个向量的数量积等于它们对应坐标的乘积的和，即：`ab=x1x2+y1y2`
 
 $\mathbf{a·b} = x_1 x_2 + y_1 y_2$
 
-若 $\mathbf{a⊥b}$ ，则：
+若 $\mathbf{a⊥b}$ ，则：`ab=0`
 
 $\mathbf{a·b} = 0$
