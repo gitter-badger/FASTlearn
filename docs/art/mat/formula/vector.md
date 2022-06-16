@@ -135,7 +135,7 @@ $\mathbf{a·b} = 0$
 
 ## 平面向量与三角形
 
-引入：
+引入：`f=g/(2cost/2)`
 
 $\mathbf{|F_1|=}\frac{\mathbf{|G|}}{2\cos \frac {\theta} 2}$
 
@@ -143,16 +143,18 @@ $\mathbf{|F_1|=}\frac{\mathbf{|G|}}{2\cos \frac {\theta} 2}$
 
 $a^2=b^2+c^2-2bc\cos A$
 
-推论：
+推论：`cosa=(b2c2-a2)/(2bc)`
 
 $\cos A = \frac {b^2+c^2-a^2} {2bc}$
 
 ### 正弦定理
 
+`a/sina=a/sinb=c/sinc`
+
 $\frac a {\sin A}=\frac b {\sin B}=\frac c {\sin C}$
 
 ### 海伦公式
 
-设 $p=\frac 1 2 (a+b+c)$ ，则：
+设 $p=\frac 1 2 (a+b+c)$ ，则：`s=sqrtp(p-a)(p-b)(p-c)`
 
 $S=\sqrt{p(p-a)(p-b)(p-c)}$
