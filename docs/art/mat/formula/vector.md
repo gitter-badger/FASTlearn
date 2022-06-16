@@ -109,7 +109,7 @@ $\mathbf{(\lambda a)·b=\lambda(a·b)=a·(\lambda b)}$
 
 $\mathbf{(a+b)·c=a·c+b·c}$
 
-## 平面向量的定理
+## 平面向量的坐标表示
 
 如果 $\mathbf{e_1}$ ， $\mathbf{e_2}$ 是同一平面内两个不共线向量那么对于这一平面内的任意向量 $\mathbf{a}$ ，有且只有一个实数 $\lambda_1$ ，$\lambda_2$ ，使：`a=l1e1+l2e2`
 
@@ -132,3 +132,27 @@ $\mathbf{a·b} = x_1 x_2 + y_1 y_2$
 若 $\mathbf{a⊥b}$ ，则：`ab=0`
 
 $\mathbf{a·b} = 0$
+
+## 平面向量与三角形
+
+引入：
+
+$\mathbf{|F_1|=}\frac{\mathbf{|G|}}{2\cos \frac {\theta} 2}$
+
+### 余弦定理
+
+$a^2=b^2+c^2-2bc\cos A$
+
+推论：
+
+$\cos A = \frac {b^2+c^2-a^2} {2bc}$
+
+### 正弦定理
+
+$\frac a {\sin A}=\frac b {\sin B}=\frac c {\sin C}$
+
+### 海伦公式
+
+设 $p=\frac 1 2 (a+b+c)$ ，则：
+
+$S=\sqrt{p(p-a)(p-b)(p-c)}$
