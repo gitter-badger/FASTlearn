@@ -42,9 +42,7 @@ theme:
     # toc.integrate
     - navigation.tabs
     - navigation.tabs.sticky
-  font:
-    code: Microsoft YaHei Mono
-    text: SHS
+  font: false
   palette:
     - scheme: default
       primary: indigo
