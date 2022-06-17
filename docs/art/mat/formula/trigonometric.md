@@ -86,14 +86,6 @@ $2\pi$
 
 $\pi$
 
-### 任意三角函数
-
-$y=A\sin(\ x + ), x\in\mathbf{R}$
-
-周期：
-
-$T=\frac {2\pi} {\ }$
-
 ## 单调性
 
 ### 正弦函数
@@ -176,16 +168,44 @@ $(C_{(\alpha-\beta)})$
 
 #### 正切函数
 
+$\tan(\alpha-\beta)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$
+
+$T_{\alpha-\beta}$
+
 ### 两角和
 
-###
-
-$\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$
-
-$(C_{(\alpha+\beta)})$
+#### 正弦函数
 
 $\sin(\alpha+\beta)=\sin\alpha\cos\beta+\sin\beta\cos\alpha$
 
 $(S_{(\alpha+\beta)})$
 
+#### 余弦函数
 
+$\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$
+
+$(C_{(\alpha+\beta)})$
+
+#### 正切函数
+
+$\tan(\alpha+\beta)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$
+
+$(T_{(\alpha+\beta)})$
+
+### 二倍角
+
+#### 正弦函数
+
+$\sin2\alpha=2\sin\alpha\cos\beta$
+
+#### 余弦函数
+
+$\cos2\alpha=\cos^2\alpha-\sin^2\beta$
+
+$\cos2\alpha=1-2\sin^2\alpha$
+
+$\cos2\alpha=2\cos^2\alpha-1$
+
+#### 正切函数
+
+$\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha}$
