@@ -76,10 +76,11 @@ nav:
       - "新闻":
           - art/eng/archive-news/PSSMDAOGBGIHI.md
   - 数学:
-      - 公式速查: 
-          - art/mat/formula/vector.md
-          - art/mat/formula/complex.md
+      - 速查: 
+          - art/mat/formula/log.md
           - art/mat/formula/trigonometric.md
+          - art/mat/formula/complex.md
+          - art/mat/formula/vector.md
   - 物理:
       - 必修三:
           - "静电场的描述": 
