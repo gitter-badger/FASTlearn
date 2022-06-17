@@ -2,7 +2,7 @@
 
 ## 诱导公式
 
-公式一：
+### 公式一
 
 $\sin (a+k·2\pi)=\sin a$
 
@@ -18,7 +18,7 @@ $\frac {\sin a} {\cos a}=\tan a$
 
 $\frac {\cos x} {1-\sin x}=\frac {1+\sin x} {\cos x}$
 
-公式二：
+### 公式二
 
 $\sin (\pi +a)=-\sin a$
 
@@ -26,7 +26,7 @@ $\cos (\pi +a)=-\cos a$
 
 $\tan (\pi +a)=\tan a$
 
-公式三：
+### 公式三
 
 $\sin (-a)=-\sin a$
 
@@ -34,7 +34,7 @@ $\cos (-a)=\cos a$
 
 $\tan (-a)=-\tan a$
 
-公式四：
+### 公式四
 
 $\sin (\pi -a)=\sin a$
 
@@ -42,13 +42,13 @@ $\cos (\pi -a)=-\cos a$
 
 $\tan(\pi -a)=-\tan a$
 
-公式五：
+### 公式五
 
 $\sin (\frac \pi 2 -a)=\cos a$
 
 $\cos (\frac \pi 2 -a)=\sin a$
 
-公式六：
+### 公式六
 
 $\sin (\frac \pi 2 +a)=\cos a$
 
@@ -160,12 +160,32 @@ $\mathbf{R}$
 
 ## 三角恒等变换
 
-两角差：
+### 两角差
+
+#### 正弦函数
+
+$\sin(\alpha-\beta)=\sin\alpha\cos\beta-\sin\beta\cos\alpha$
+
+$(S_{(\alpha-\beta)})$
+
+#### 余弦函数
 
 $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$
 
 $(C_{(\alpha-\beta)})$
 
-两角和：
+#### 正切函数
 
-$\cos()$
+### 两角和
+
+###
+
+$\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$
+
+$(C_{(\alpha+\beta)})$
+
+$\sin(\alpha+\beta)=\sin\alpha\cos\beta+\sin\beta\cos\alpha$
+
+$(S_{(\alpha+\beta)})$
+
+
