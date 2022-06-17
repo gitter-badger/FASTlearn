@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SHS-B';
+    src: url('SourceHanSansCN-Bold-Alphabetic.eot');
+    src: url('SourceHanSansCN-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('SourceHanSansCN-Bold-Alphabetic.woff2') format('woff2'),
+        url('SourceHanSansCN-Bold-Alphabetic.woff') format('woff'),
+        url('SourceHanSansCN-Bold-Alphabetic.ttf') format('truetype'),
+        url('SourceHanSansCN-Bold-Alphabetic.svg#SourceHanSansCN-Bold-Alphabetic') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SHS-L';
+    src: url('SourceHanSansCN-Light-Alphabetic.eot');
+    src: url('SourceHanSansCN-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('SourceHanSansCN-Light-Alphabetic.woff2') format('woff2'),
+        url('SourceHanSansCN-Light-Alphabetic.woff') format('woff'),
+        url('SourceHanSansCN-Light-Alphabetic.ttf') format('truetype'),
+        url('SourceHanSansCN-Light-Alphabetic.svg#SourceHanSansCN-Light-Alphabetic') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SHS-M';
+    src: url('SourceHanSansCN-Medium-Alphabetic.eot');
+    src: url('SourceHanSansCN-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('SourceHanSansCN-Medium-Alphabetic.woff2') format('woff2'),
+        url('SourceHanSansCN-Medium-Alphabetic.woff') format('woff'),
+        url('SourceHanSansCN-Medium-Alphabetic.ttf') format('truetype'),
+        url('SourceHanSansCN-Medium-Alphabetic.svg#SourceHanSansCN-Medium-Alphabetic') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SHS-R';
+    src: url('SourceHanSansCN-Regular-Alphabetic.eot');
+    src: url('SourceHanSansCN-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('SourceHanSansCN-Regular-Alphabetic.woff2') format('woff2'),
+        url('SourceHanSansCN-Regular-Alphabetic.woff') format('woff'),
+        url('SourceHanSansCN-Regular-Alphabetic.ttf') format('truetype'),
+        url('SourceHanSansCN-Regular-Alphabetic.svg#SourceHanSansCN-Regular-Alphabetic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Microsoft YaHei Mono';
+    src: url('MicrosoftYaHeiMono.woff2') format('woff2'),
+        url('MicrosoftYaHeiMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
