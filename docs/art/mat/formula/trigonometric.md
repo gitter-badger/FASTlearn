@@ -209,3 +209,9 @@ $\cos2\alpha=2\cos^2\alpha-1$
 #### 正切函数
 
 $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha}$
+
+## *函数 $y=A\sin(\omega{x}+\phi)$
+
+周期：$T=\frac{2\pi}{\omega}$
+
+值域：$[-A, A]$
