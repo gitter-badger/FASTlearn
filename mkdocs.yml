@@ -61,7 +61,6 @@ theme:
   name: material
   logo: load/logo/LOGO.png
   favicon: load/logo/LOGO.png
-  font: false
   locale: zh_CN
   language: zh
 extra_javascript:
