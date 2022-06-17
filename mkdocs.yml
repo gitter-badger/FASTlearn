@@ -44,7 +44,7 @@ theme:
     - navigation.tabs.sticky
   font:
     code: Microsoft YaHei Mono
-    text: Source Han Sans CN
+    text: Noto Sans
   palette:
     - scheme: default
       primary: indigo
