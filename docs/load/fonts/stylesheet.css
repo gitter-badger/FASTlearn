@@ -1,57 +1,36 @@
 @font-face {
     font-family: 'Source Han Sans SC';
     src: url('./SourceHanSansSC-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Han Sans SC';
     src: url('./SourceHanSansSC-ExtraLight.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Han Sans SC';
     src: url('./SourceHanSansSC-Heavy.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Han Sans SC';
     src: url('./SourceHanSansSC-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Han Sans SC';
     src: url('./SourceHanSansSC-Medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Han Sans SC';
     src: url('./SourceHanSansSC-Normal.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-Normal.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    src: url('./SourceHanSansSC-Regular.woff') format('woff');
 }
 
 @font-face {
