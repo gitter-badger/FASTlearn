@@ -1,42 +1,120 @@
 @font-face {
     font-family: 'Noto Sans SC';
-    src: url('./NotoSansSC-Light.woff2') format('woff2');
+    src: url('./NotoSerifSC-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Noto Sans SC';
     src: url('./NotoSansSC-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Noto Sans SC';
     src: url('./NotoSansSC-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Noto Sans SC';
     src: url('./NotoSansSC-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Noto Sans SC';
     src: url('./NotoSansSC-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
+
+
+
+
+@font-face {
+    font-family: 'Noto Serif SC';
+    src: url('./NotoSerifSC-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Serif SC';
+    src: url('./NotoSerifSC-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Serif SC';
+    src: url('./NotoSerifSC-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Serif SC';
+    src: url('./NotoSerifSC-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Serif SC';
+    src: url('./NotoSerifSC-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+
+
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif Bold Italic'), local('NotoSerif-BoldItalic'),
+        url('NotoSerif-BoldItalic.woff2') format('woff2'),
+        url('NotoSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif Bold'), local('NotoSerif-Bold'),
+        url('NotoSerif-Bold.woff2') format('woff2'),
+        url('NotoSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif Italic'), local('NotoSerif-Italic'),
+        url('NotoSerif-Italic.woff2') format('woff2'),
+        url('NotoSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif'), local('NotoSerif'),
+        url('NotoSerif.woff2') format('woff2'),
+        url('NotoSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+
+
 
 @font-face {
     font-family: 'Ubuntu';
@@ -45,9 +123,8 @@
         url('Ubuntu-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'),
@@ -55,9 +132,8 @@
         url('Ubuntu-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu Italic'), local('Ubuntu-Italic'),
@@ -65,9 +141,8 @@
         url('Ubuntu-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu Light'), local('Ubuntu-Light'),
@@ -75,9 +150,8 @@
         url('Ubuntu-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
@@ -85,9 +159,8 @@
         url('Ubuntu-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'),
@@ -95,9 +168,8 @@
         url('Ubuntu-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'),
@@ -105,9 +177,8 @@
         url('Ubuntu-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
@@ -115,8 +186,11 @@
         url('Ubuntu-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
+
+
+
 
 @font-face {
     font-family: 'Ubuntu Mono';
@@ -125,9 +199,8 @@
         url('UbuntuMono-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu Mono';
     src: local('Ubuntu Mono'), local('UbuntuMono-Regular'),
@@ -135,9 +208,8 @@
         url('UbuntuMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu Mono';
     src: local('Ubuntu Mono Bold Italic'), local('UbuntuMono-BoldItalic'),
@@ -145,9 +217,8 @@
         url('UbuntuMono-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
-
 @font-face {
     font-family: 'Ubuntu Mono';
     src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'),
@@ -155,10 +226,21 @@
         url('UbuntuMono-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
 
+
+
+
 :root {
-  --md-text-font: "Ubuntu", "Noto Sans SC", Arial; 
-  --md-code-font: "Ubuntu Mono", "Microsoft YaHei Mono"; 
+  --md-text-font: "Noto Serif", "Ubuntu", "Noto Serif SC", Arial; 
+  --md-code-font: "Ubuntu Mono", "Microsoft YaHei Mono", monospace; 
+}
+
+.md-ellipsis {
+    font-family: "Ubuntu", "Noto Sans SC", Arial;
+}
+
+.md-footer {
+    font-family: "Ubuntu", "Noto Sans SC", Arial;
 }
