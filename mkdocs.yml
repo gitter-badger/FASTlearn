@@ -1,9 +1,5 @@
 site_name: FASTlearn
 plugins:
-  - with-pdf:
-      enabled_if_env: ENABLE_PDF_EXPORT
-      cover_subtitle: ""
-      output_path: pdf/FULL.pdf
   - git-revision-date
   - tags:
       tags_file: art/tags.md
