@@ -214,7 +214,9 @@ $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha}$
 
 周期：$T=\frac{2\pi}{|\omega|}$
 
-值域：$[-A, A]$
+定义域：$\mathbf{R}$
+
+值域：$[-|A|, |A|]$
 
 对称轴：直线 $x=\frac{2k\pi+\pi-2\phi}{2\omega}(k\in\mathbf{Z})$
 
