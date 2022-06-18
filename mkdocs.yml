@@ -3,7 +3,7 @@ plugins:
   - with-pdf:
       enabled_if_env: ENABLE_PDF_EXPORT
       cover_subtitle: ""
-      output_path: pdf.pdf
+      output_path: pdf/FULL.pdf
   - git-revision-date
   - tags:
       tags_file: art/tags.md
@@ -97,6 +97,7 @@ nav:
             - art/phy/3.2/3.2.md
             - art/phy/3.2/3.2.1.md
             - art/phy/3.2/3.2.2.md
+            - art/phy/3.2/3.2.3.md
   - 政治:
       - 必修三:
           - art/pol/3.1.md
