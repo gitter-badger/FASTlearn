@@ -1,36 +1,57 @@
 @font-face {
-    font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-Bold.woff') format('woff');
+    font-family: '';
+    src: url('SourceHanSansSC-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-ExtraLight.woff') format('woff');
+    font-family: '';
+    src: url('SourceHanSansSC-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-Heavy.woff') format('woff');
+    font-family: '';
+    src: url('SourceHanSansSC-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-Light.woff') format('woff');
+    font-family: '';
+    src: url('SourceHanSansSC-Normal.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-Medium.woff') format('woff');
+    font-family: '';
+    src: url('SourceHanSansSC-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-Normal.woff') format('woff');
+    font-family: '';
+    src: url('SourceHanSansSC-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Source Han Sans SC';
-    src: url('./SourceHanSansSC-Regular.woff') format('woff');
+    font-family: '';
+    src: url('SourceHanSansSC-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
