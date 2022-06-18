@@ -1,49 +1,12 @@
-/* Noto Sans CJK SC */
-@font-face{
-    font-family: 'Noto Sans CJK SC';
+@font-face {
+    font-family: 'Source Han Sans SC';
+    src: url('SourceHanSansSC-VF.ttf.woff2') format('woff2'), 
+        url('SourceHanSansSC-VF.otf.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
-    src: local('☺'),
-         url('NotoSansCJKsc-Light.woff2') format('woff2'),
-         url('NotoSansCJKsc-Light.woff') format('woff'),
-         url('NotoSansCJKsc-Light.otf') format('opentype');
+    font-display: swap;
 }
-@font-face{
-    font-family: 'Noto Sans CJK SC';
-    font-style: normal;
-    font-weight: 100;
-    src: local('☺'),
-         url('NotoSansCJKsc-Thin.woff2') format('woff2'),
-         url('NotoSansCJKsc-Thin.woff') format('woff'),
-         url('NotoSansCJKsc-Thin.otf') format('opentype');
-}
-@font-face{
-    font-family: 'Noto Sans CJK SC';
-    font-style: normal;
-    font-weight: 200;
-    src: local('☺'),
-         url('NotoSansCJKsc-Light.woff2') format('woff2'),
-         url('NotoSansCJKsc-Light.woff') format('woff'),
-         url('NotoSansCJKsc-Light.otf') format('opentype');
-}
-@font-face{
-    font-family: 'Noto Sans CJK SC';
-    font-style: normal;
-    font-weight: 500;
-    src: local('☺'),
-         url('NotoSansCJKsc-DemiLight.woff2') format('woff2'),
-         url('NotoSansCJKsc-DemiLight.woff') format('woff'),
-         url('NotoSansCJKsc-DemiLight.otf') format('opentype');
-}
-@font-face{
-    font-family: 'Noto Sans CJK SC';
-    font-style: normal;
-    font-weight: 700;
-    src: local('☺'),
-         url('NotoSansCJKsc-Regular.woff2') format('woff2'),
-         url('NotoSansCJKsc-Regular.woff') format('woff'),
-         url('NotoSansCJKsc-Regular.otf') format('opentype');
-}
+
 @font-face {
     font-family: 'Microsoft YaHei Mono';
     src: url('MicrosoftYaHeiMono.woff2') format('woff2'),
@@ -54,6 +17,6 @@
 }
 
 :root {
-  --md-text-font: "Noto Sans CJK SC", sans-serif; 
+  --md-text-font: "Source Han Sans SC", sans-serif; 
   --md-code-font: "Microsoft YaHei Mono", sans-serif; 
 }
