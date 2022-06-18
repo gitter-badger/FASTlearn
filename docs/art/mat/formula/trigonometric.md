@@ -212,6 +212,19 @@ $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha}$
 
 ## *函数 $y=A\sin(\omega{x}+\phi)$
 
-周期：$T=\frac{2\pi}{\omega}$
+周期：$T=\frac{2\pi}{|\omega|}$
 
 值域：$[-A, A]$
+
+对称轴：直线 $x=\frac{2k\pi+\pi-2\phi}{2\omega}(k\in\mathbf{Z})$
+
+对称中心：$(\frac{2k\pi-\phi}\omega, 0)(k\in\mathbf{Z})$
+
+零点：$\frac{2k\pi-\phi}\omega(k\in\mathbf{Z})$
+
+极值点：
+
+$(\frac{4k\pi-\pi-2\phi}{2\omega}, A)(k\in\mathbf{Z})$
+
+$(\frac{4k\pi+\pi-2\phi}{2\omega}, -A)(k\in\mathbf{Z})$
+
