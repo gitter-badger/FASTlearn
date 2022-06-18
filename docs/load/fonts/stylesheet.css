@@ -233,11 +233,19 @@
 
 
 :root {
-  --md-text-font: "Noto Serif", "Ubuntu", "Noto Serif SC", Arial; 
+  --md-text-font: "Noto Serif", "Noto Serif SC", "Ubuntu", Arial; 
   --md-code-font: "Ubuntu Mono", "Microsoft YaHei Mono", monospace; 
 }
 
 .md-ellipsis {
+    font-family: "Ubuntu", "Noto Sans SC", Arial;
+}
+
+.md-nav__title {
+    font-family: "Ubuntu", "Noto Sans SC", Arial;
+}
+
+.md-source__repository--active {
     font-family: "Ubuntu", "Noto Sans SC", Arial;
 }
 
