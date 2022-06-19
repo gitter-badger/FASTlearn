@@ -4,9 +4,7 @@ hide:
   - toc
 ---
 
-# I Can Eat Glass
-
-And from the sublime to the ridiculous, here is a [certain phrase¹](#notes) in an assortment of languages:
+# 我能吞下玻璃而不伤身体
 
 1.  **Sanskrit**: ﻿काचं शक्नोम्यत्तुम् । नोपहिनस्ति माम् ॥
 2.  **Sanskrit** _(standard transcription):_ kācaṃ śaknomyattum; nopahinasti mām.
@@ -194,9 +192,8 @@ And from the sublime to the ridiculous, here is a [certain phrase¹](#notes) in 
 154.  **Lojban**: mi kakne le nu citka le blaci .iku'i le se go'i na xrani mi
 155.  **Nórdicg**: Ljœr ye caudran créneþ ý jor cẃran.
 
-# The Quick Brown Fox... Pangrams
+# 这只伶俐的棕色狐狸跳过一只懒惰的狗
 
-The "I can eat glass" sentences do not necessarily show off the orthography of each language to best advantage. In many alphabetic written languages it is possible to include all (or most) letters (or "special" characters) in a single (often nonsense) _pangram_. These were traditionally used in typewriter instruction; now they are useful for stress-testing computer fonts and keyboard input methods. Here are a few examples (SEND MORE):
 
 1.  **English:** The quick brown fox jumps over the lazy dog.
 2.  **Jamaican:** Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?
