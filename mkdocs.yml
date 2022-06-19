@@ -64,7 +64,10 @@ theme:
 extra_javascript:
   - load/javascripts/mathjax.js
   - load/javascripts/polyfill.min.js?features=es6
-  - load/javascripts/es5/tex-mml-chtml.js
+  # load/javascripts/es5/tex-mml-chtml.js
+  - load/javascripts/es5/tex-mml-svg.js
+  - load/javascripts/es5/tex-svg-full.js
+  # load/javascripts/es5/tex-chtml-full.js
 extra_css:
   - load/fonts/stylesheet.css
 nav:
