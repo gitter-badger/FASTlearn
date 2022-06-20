@@ -247,7 +247,7 @@ hide:
 
 ``` mermaid
 graph LR
-  A[FASTlearn] --> B{Error?};
+  A[Start] --> B{Error?};
   B -->|Yes| C[Hmm...];
   C --> D[Debug];
   D --> B;
