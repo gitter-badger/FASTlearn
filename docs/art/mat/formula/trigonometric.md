@@ -272,7 +272,15 @@ $\cos2\alpha=2\cos^2\alpha-1$
 
 $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha}$
 
-## *函数 $y=A\sin(\omega{x}+\phi)$
+### 两角积
+
+$\sin\alpha\sin\beta=-\frac{1}2[\cos(\alpha+\beta)-\cos(\alpha-\beta)]$
+
+$\cos\alpha\cos\beta=-\frac{1}2[\cos(\alpha+\beta)+\cos(\alpha-\beta)]$
+
+$\sin\alpha\cos\beta=\frac{1}2[\sin(\alpha+\beta)+\sin(\alpha-\beta)]$
+
+## $y=A\sin(\omega{x}+\phi)$
 
 周期：`T=(2p)/o`
 
