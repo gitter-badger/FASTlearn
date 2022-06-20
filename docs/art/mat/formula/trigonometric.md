@@ -94,11 +94,13 @@ $\cos (\frac \pi 2 +a)=-\sin a$
 
 ## 拓展
 
-$\sin(\frac{3\pi}2+\alpha)=\cos\alpha$
+$\sin(\frac{3\pi}2+\alpha)=-\cos\alpha$
 
 $\cos(\frac{3\pi}2+\alpha)=\sin\alpha$
 
 $\sin(\frac{3\pi}2-\alpha)=-\cos\alpha$
+
+$\cos(\frac{3\pi}2-\alpha)=-\sin\alpha$
 
 ## 周期性
 
@@ -187,8 +189,6 @@ $\cos(-x)=\cos{x}$
 奇函数：`tan(-x)=-tanx`
 
 $\tan(-x)=-\tan{x}, x\in\mathbf{R}, x≠\frac\pi{2}+k\pi, k\in\mathbf{Z}$
-
-$\mathbf{R}$
 
 ## 三角恒等变换
 
