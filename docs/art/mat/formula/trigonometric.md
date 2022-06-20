@@ -54,6 +54,14 @@ $\sin (\frac \pi 2 +a)=\cos a$
 
 $\cos (\frac \pi 2 +a)=-\sin a$
 
+## 拓展
+
+$\sin(\frac{3\pi}2+\alpha)=\cos\alpha$
+
+$\cos(\frac{3\pi}2+\alpha)=\sin\alpha$
+
+$\sin(\frac{3\pi}2-\alpha)=-\cos\alpha$
+
 ## 周期性
 
 周期的定义：
