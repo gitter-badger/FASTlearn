@@ -1,5 +1,6 @@
 site_name: FASTlearn
 plugins:
+  - mermaid2
   - git-revision-date
   - tags:
       tags_file: art/tags.md
