@@ -161,8 +161,8 @@ hide:
 129.  **Chamorro**: Siña yo' chumocho krestat, ti ha na'lalamen yo'.
 130.  **Fijian**: Au rawa ni kana iloilo, ia au sega ni vakacacani kina.
 131.  **Javanese**: Aku isa mangan beling tanpa lara.
-132.  **Burmese** (Unicode 4.0): က္ယ္ဝန္‌တော္‌၊က္ယ္ဝန္‌မ မ္ယက္‌စားနုိင္‌သည္‌။ ၎က္ရောင္‌့ ထိခုိက္‌မ္ဟု မရ္ဟိပာ။ (9)
-133.  **Burmese** (Unicode 5.0): ကျွန်တော် ကျွန်မ မှန်စားနိုင်တယ်။ ၎င်းကြောင့် ထိခိုက်မှုမရှိပါ။ (9)
+132.  **Burmese** (Unicode 4.0): က္ယ္ဝန္‌တော္‌၊က္ယ္ဝန္‌မ မ္ယက္‌စားနုိင္‌သည္‌။ ၎က္ရောင္‌့ ထိခုိက္‌မ္ဟု မရ္ဟိပာ။ 
+133.  **Burmese** (Unicode 5.0): ကျွန်တော် ကျွန်မ မှန်စားနိုင်တယ်။ ၎င်းကြောင့် ထိခိုက်မှုမရှိပါ။ 
 134.  **Vietnamese (quốc ngữ)**: Tôi có thể ăn thủy tinh mà không hại gì.
 135.  **Vietnamese (nôm)** : 些 𣎏 世 咹 水 晶 𦓡 空 𣎏 害 咦
 136.  **Khmer**: ខ្ញុំអាចញុំកញ្ចក់បាន ដោយគ្មានបញ្ហារ
@@ -204,9 +204,9 @@ hide:
 7.  **Norwegian:** Blåbærsyltetøy ("blueberry jam", includes every extra letter used in Norwegian).
 8.  **Swedish:** Flygande bäckasiner söka strax hwila på mjuka tuvor.
 9.  **Icelandic:** Sævör grét áðan því úlpan var ónýt.
-10.  **Finnish:** (5) Törkylempijävongahdus (This is a perfect pangram, every letter appears only once. Translating it is an art on its own, but I'll say "rude lover's yelp". :-D)
-11.  **Finnish:** (5) Albert osti fagotin ja töräytti puhkuvan melodian. (Albert bought a bassoon and hooted an impressive melody.)
-12.  **Finnish:** (5) On sangen hauskaa, että polkupyörä on maanteiden jokapäiväinen ilmiö. (It's pleasantly amusing, that the bicycle is an everyday sight on the roads.)
+10.  **Finnish:**  Törkylempijävongahdus (This is a perfect pangram, every letter appears only once. Translating it is an art on its own, but I'll say "rude lover's yelp". :-D)
+11.  **Finnish:**  Albert osti fagotin ja töräytti puhkuvan melodian. (Albert bought a bassoon and hooted an impressive melody.)
+12.  **Finnish:**  On sangen hauskaa, että polkupyörä on maanteiden jokapäiväinen ilmiö. (It's pleasantly amusing, that the bicycle is an everyday sight on the roads.)
 13.  **Polish:** Pchnąć w tę łódź jeża lub osiem skrzyń fig.
 14.  **Czech:** Příliš žluťoučký kůň úpěl ďábelské ódy.
 15.  **Slovak:** Starý kôň na hŕbe kníh žuje tíško povädnuté ruže, na stĺpe sa ďateľ učí kvákať novú ódu o živote.
@@ -220,7 +220,7 @@ hide:
 23.  **Hungarian:** Árvíztűrő tükörfúrógép.
 24.  **Spanish:** El pingüino Wenceslao hizo kilómetros bajo exhaustiva lluvia y frío, añoraba a su querido cachorro.
 25.  **Spanish:** Volé cigüeña que jamás cruzó París, exhibe flor de kiwi y atún.
-26.  **Portuguese:** O próximo vôo à noite sobre o Atlântico, põe freqüentemente o único médico. (3)
+26.  **Portuguese:** O próximo vôo à noite sobre o Atlântico, põe freqüentemente o único médico. 
 27.  **French:** Les naïfs ægithales hâtifs pondant à Noël où il gèle sont sûrs d'être déçus en voyant leurs drôles d'œufs abîmés.
 28.  **Esperanto:** Eĥoŝanĝo ĉiuĵaŭde
 29.  **Esperanto:** Laŭ Ludoviko Zamenhof bongustas freŝa ĉeĥa manĝaĵo kun spicoj.
@@ -230,4 +230,16 @@ hide:
     > いろはにほへど　ちりぬるを  
     > わがよたれぞ　つねならむ  
     > うゐのおくやま　けふこえて  
-    > あさきゆめみじ　ゑひもせず (4)
+    > あさきゆめみじ　ゑひもせず 
+
+```
+┌───────────────────────────────────────────┬─────────────────────────────┐
+│  ________________ ______________________  └───────────────────────────► ├─┐
+│ ___  ____/___    |__  ___/___  __/___  /_____ ______ ________________   │ │
+│ __  /_    __  /| |_____ \ __  /   __  / _  _ \_  __ `/__  ___/__  __ \  │ │
+│ _  __/    _  ___ |____/ / _  /    _  /  /  __// /_/ / _  /    _  / / /  │ │
+│ /_/       /_/  |_|/____/  /_/     /_/   \___/ \__,_/  /_/     /_/ /_/   │ │
+│                                                                         │ │
+└──┬──────────────────────────────────────────────────────────────────────┼─┤
+   └────────────────────────────────────────────────────────────────────────┘
+```
