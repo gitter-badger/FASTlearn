@@ -9,11 +9,14 @@ jobs:
     name: Mkdocs Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: Check
         uses: actions/checkout@v2
 
-      - name: Deploy docs
+      - name: Build
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CUSTOM_DOMAIN: gitfastlearn.xf-yun.cn
           CONFIG_FILE: mkdocs.yml
+          EXTRA_PACKAGES: build-base
           REQUIREMENTS: requirements.txt
