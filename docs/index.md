@@ -249,10 +249,10 @@ graph TB
 fl[FASTlearn] --> t(明白)
 fl --> f(不明白)
 t --> |完善| fl
-f --> issue(打开议题)
+search --> issue(打开议题)
 f --> search(查阅资料)
 issue --> t
 search --> t
-search -->|还是| f
+search --> f
 
 ```
