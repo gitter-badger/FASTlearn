@@ -1173,52 +1173,63 @@
 <div class="mermaid">graph LR
 mks{{马克思主义哲学}} --&gt; |揭示|law
 mks --&gt; |承认|conflict
-subgraph 物质与意识
+mks --- wwzy[唯物主义] &amp; 2side[辩证法]
+wwzy --&gt; thing &amp; mind 
+2side --&gt; conflict &amp; run &amp; develop
 thing((物质)) --&gt; |决定| mind((意识))
 thing --&gt; obj[客观] &amp; run["运动"] &amp; link["联系"] &amp; develop[发展]
 develop --- deve1{实质} --&gt; goto[前进] &amp; up[上升]
 develop --- deve2{形式} --&gt; ichange[量变] &amp; lchange[质变]
+develop --- 前途 --&gt; 光明
+develop --- 道路 --&gt; 曲折 --&gt; 初期旧事物的扼杀 &amp; 新事物本身的不足
 ichange --- 数量或场所的变更 --&gt; 渐进 &amp; 不显著
 ichange --&gt;|"...的开始"| lchange
+ichange --&gt;|导致| lchange
 lchange --- 根本性质的变化 --&gt; 显著
 lchange --&gt;|"...的准备"| ichange
+lchange --&gt;|开辟新的| ichange
 link --&gt; many[多种多样] &amp; obj
 run --&gt; obj &amp; many
-run --&gt; law[规律] &amp; is["绝对"] &amp; ever["永恒"]
+run --&gt; law[规律] &amp; is["绝对"] &amp; cpe[相对] &amp; ever["永恒"]
 law --&gt; obj
 mind --&gt; |能动改变|thing
-mind --&gt; |认识|thing &amp; law
+mind --&gt; |反应|thing
+mind --&gt; |认识|law
 mind --&gt; |尊重|law
-end 物质与意识
 thing --- d1{分为} --&gt; whole &amp; part
-subgraph 整体与局部
+whole --- system[系统] --&gt; 有序 &amp; 整体
+system --&gt;|优化| key
+part --- key[要素]
 whole[整体] --&gt; |统帅| part[部分]
 part --&gt; |服从服务| whole
 part --&gt; |影响| whole
-end
-subgraph 矛盾
 2sides[矛盾双方] --&gt; A &amp; B
 A --&gt;|依赖| B --&gt;|依赖| A --&gt;|前提| B --&gt;|前提| A --&gt;|渗透| B --&gt;|渗透| A --&gt;|包含| B --&gt;|包含| A --&gt;|分离| B --&gt;|分离| A
 2sides --&gt; agst &amp; same
-conflict[矛盾]
-conflict --- opp["对立"]
-conflict --- uni[统一]
+conflict((矛盾)) --- coninfo[属性] &amp; conbest[精髓]
+coninfo --&gt; opp["对立"] &amp; uni[统一]
+conbest --&gt; common[普遍性] &amp; special[特殊性]
 opp --- agst[斗争性]
 agst --&gt; is
 agst --&gt;|不能脱离| same
 agst --&gt;|寓于| same
 uni --- same[同一性]
 uni --- sap[源泉动力]
+same --&gt; cpe
 agst --- sap
 sap --&gt; develop
-end 矛盾
+common --&gt; 事事有矛盾 &amp; 时时有矛盾
+common --&gt; is
+special --&gt; 不同事物不同矛盾 &amp; 同一事物不同时候不同矛盾 &amp; 同一事物同时不同矛盾 &amp; 同一矛盾不同方面
+special --&gt; cpe
+
 </div>
 <hr/>
 <div class="md-source-file">
 <small>
     
       最后更新:
-      2022-06-21
+      2022-06-22
     
   </small>
 </div>
