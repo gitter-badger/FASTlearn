@@ -1173,7 +1173,7 @@
 <div class="mermaid">graph LR
 mks{{马克思主义哲学}} --&gt; |揭示|law
 mks --&gt; |承认|conflict
-mks --- wwzy[唯物主义] &amp; 2side[辩证法]
+mks --- mks1{分为} --&gt; wwzy[唯物主义] &amp; 2side[辩证法]
 wwzy --&gt; thing &amp; mind 
 2side --&gt; conflict &amp; run &amp; develop
 thing((物质)) --&gt; |决定| mind((意识))
@@ -1197,23 +1197,20 @@ mind --&gt; |反应|thing
 mind --&gt; |认识|law
 mind --&gt; |尊重|law
 thing --- d1{分为} --&gt; whole &amp; part
-whole --- system[系统] --&gt; 有序 &amp; 整体
+whole --- system[系统] --&gt; 有序
 system --&gt;|优化| key
 part --- key[要素]
 whole[整体] --&gt; |统帅| part[部分]
 part --&gt; |服从服务| whole
 part --&gt; |影响| whole
-2sides[矛盾双方] --&gt; A &amp; B
-A --&gt;|依赖| B --&gt;|依赖| A --&gt;|前提| B --&gt;|前提| A --&gt;|渗透| B --&gt;|渗透| A --&gt;|包含| B --&gt;|包含| A --&gt;|分离| B --&gt;|分离| A
-2sides --&gt; agst &amp; same
 conflict((矛盾)) --- coninfo[属性] &amp; conbest[精髓]
 coninfo --&gt; opp["对立"] &amp; uni[统一]
 conbest --&gt; common[普遍性] &amp; special[特殊性]
-opp --- agst[斗争性]
+opp --- agst[斗争性] --- 相互分离
 agst --&gt; is
 agst --&gt;|不能脱离| same
 agst --&gt;|寓于| same
-uni --- same[同一性]
+uni --- same[同一性] --- 相互依赖 &amp; 互为前提 &amp; 相互渗透
 uni --- sap[源泉动力]
 same --&gt; cpe
 agst --- sap
