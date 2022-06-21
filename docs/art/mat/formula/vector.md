@@ -153,8 +153,12 @@ $\cos A = \frac {b^2+c^2-a^2} {2bc}$
 
 $\frac a {\sin A}=\frac b {\sin B}=\frac c {\sin C}$
 
-### 海伦公式
+在 $△ABC$ 中， $A>B\Leftrightarrow\sin{A}>\sin{B}\Leftrightarrow{a>b}$
 
-设 $p=\frac 1 2 (a+b+c)$ ，则：`s=sqrtp(p-a)(p-b)(p-c)`
+### 面积公式
 
-$S=\sqrt{p(p-a)(p-b)(p-c)}$
+$S=\sqrt{p(p-a)(p-b)(p-c)}, p=\frac 1 2 (a+b+c)$
+
+$S=\frac{1}2ah_a=\frac{1}2bh_b=\frac{1}2ch_c$
+
+$S=\frac{1}2ab\sin{C}=\frac{1}2bc\sin{A}=\frac{1}2ca\sin{B}$
