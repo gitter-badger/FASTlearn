@@ -1,22 +1,22 @@
-name: Mkdocs Build
+name: MkDocs Deploy
 on:
   push:
     branches:
-      - master
-
+    - main
 jobs:
   build:
-    name: Mkdocs Build
     runs-on: ubuntu-latest
     steps:
-      - name: Check
-        uses: actions/checkout@v2
-
-      - name: Build
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CUSTOM_DOMAIN: gitfastlearn.xf-yun.cn
-          CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-base
-          REQUIREMENTS: requirements.txt
+    - uses: actions/setup-python@v3
+      with:
+        python-version: 3.7
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Build and Commit
+      uses: iSOLveIT/mkdocs-notes@main
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: web
