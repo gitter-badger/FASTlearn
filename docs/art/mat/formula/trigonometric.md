@@ -244,7 +244,7 @@ $\tan(\alpha-\beta)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$
 
 $(T_{(\alpha-\beta)})$
 
-### 二倍角
+### 倍角
 
 #### 正弦函数
 
@@ -271,6 +271,20 @@ $\cos2\alpha=2\cos^2\alpha-1$
 `tan2a=(2tana)/(1-tan2a)`
 
 $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha}$
+
+### 半角
+
+#### 正弦函数
+
+$\sin\frac12\alpha=\sqrt{\frac{1-\cos\alpha}2}$
+
+#### 余弦函数
+
+$\cos\frac12\alpha=\sqrt{\frac{1+\cos\alpha}2}$
+
+#### 正切函数
+
+$\tan\alpha=\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}$
 
 ### 两角积
 
@@ -315,4 +329,3 @@ $(\frac{4k\pi-\pi-2\phi}{2\omega}, A)(k\in\mathbf{Z})$
 `((4kp+p-2f)/2o, -A)`
 
 $(\frac{4k\pi+\pi-2\phi}{2\omega}, -A)(k\in\mathbf{Z})$
-
