@@ -1,25 +1,23 @@
-name: MkDocs Deploy
+name: Deploy
 on:
   push:
     branches:
-    - main
+      - master
 jobs:
   build:
+    name: Deploy docs to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/setup-python@v3
-      with:
-        python-version: 3.7
-
-    - uses: actions/checkout@master
-      with:
-        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-
-    - name: Build and Commit
-      uses: iSOLveIT/mkdocs-notes@main
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: web
+      - name: Checkout 
+        uses: actions/checkout@v2
+      - name: Build
+        uses: Tiryoh/actions-mkdocs@v0
+        with:
+          mkdocs_version: 'latest' # option
+          requirements: 'requirements.txt' # option
+          configfile: 'mkdocs.yml' # option
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
