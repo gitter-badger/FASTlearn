@@ -1,0 +1,929 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="DVIA" name="author"/>
+<link href="load/logo/LOGO.png" rel="icon"/>
+<meta content="mkdocs-1.3.0, mkdocs-material-8.3.6" name="generator"/>
+<title>FASTlearn</title>
+<link href="assets/stylesheets/main.4a0965b7.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link href="load/fonts/stylesheet.css" rel="stylesheet"/>
+<script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          跳转至
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--lifted" data-md-component="header">
+<nav aria-label="页眉" class="md-header__inner md-grid">
+<a aria-label="FASTlearn" class="md-header__button md-logo" data-md-component="logo" href="." title="FASTlearn">
+<img alt="logo" src="load/logo/LOGO.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            FASTlearn
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              主页
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="切换到暗黑模式" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="切换到暗黑模式">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+<input aria-label="切换到明亮模式" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="切换到明亮模式">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="查找" class="md-search__options">
+<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Github-DVIA/FASTlearn" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Github-DVIA/FASTlearn
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href=".">
+      主页
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="art/tags/">
+      标签
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="art/eng/articles/moon50/">
+        英语
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="art/mat/formula/log/">
+        数学
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="art/phy/2.1/2.1.1/">
+        物理
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="art/pol/3.1/">
+        政治
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="art/help/guide/">
+        帮助
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden="">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="FASTlearn" class="md-nav__button md-logo" data-md-component="logo" href="." title="FASTlearn">
+<img alt="logo" src="load/logo/LOGO.png"/>
+</a>
+    FASTlearn
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Github-DVIA/FASTlearn" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Github-DVIA/FASTlearn
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href=".">
+        主页
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/tags/">
+        标签
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          英语
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="英语" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          英语
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1">
+          文章
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="文章" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+          文章
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/eng/articles/moon50/">
+        肯尼迪登月演说
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_2" id="__nav_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_2">
+          新闻
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="新闻" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+          新闻
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/eng/archive-news/PSSMDAOGBGIHI/">
+        Philly’s South Street massacre demands action on guns, but GOP isn’t having it | Will Bunch
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4">
+          数学
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="数学" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          数学
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_1" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1">
+          速查
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="速查" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+          速查
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/mat/formula/log/">
+        对数
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/mat/formula/trigonometric/">
+        三角函数
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/mat/formula/complex/">
+        复数
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/mat/formula/vector/">
+        平面向量
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          物理
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="物理" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          物理
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_1" id="__nav_5_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1">
+          必修二
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="必修二" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+          必修二
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_1_1" id="__nav_5_1_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1_1">
+          抛体运动
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="抛体运动" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_1_1">
+<span class="md-nav__icon md-icon"></span>
+          抛体运动
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.1/2.1.1/">
+        曲线运动
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.1/2.1.2/">
+        2.1.2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.1/2.1.3/">
+        2.1.3
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.1/2.1.4/">
+        2.1.4
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_1_2" id="__nav_5_1_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1_2">
+          圆周运动
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="圆周运动" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_1_2">
+<span class="md-nav__icon md-icon"></span>
+          圆周运动
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.2/2.2.1/">
+        匀速圆周运动
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.2/2.2.2.1/">
+        向心力
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.2/2.2.2.2/">
+        向心加速度
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/2.2/2.2.3/">
+        实际应用
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_2" id="__nav_5_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_2">
+          必修三
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="必修三" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+          必修三
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_2_1" id="__nav_5_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_2_1">
+          静电场的描述
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="静电场的描述" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_2_1">
+<span class="md-nav__icon md-icon"></span>
+          静电场的描述
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/3.1/3.1.1/">
+        静电现象
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/3.1/3.1.2/">
+        静电力
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/3.1/3.1.3/">
+        电场
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/3.1/3.1.4/">
+        电势
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_2_2" id="__nav_5_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_2_2">
+          静电场的应用
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="静电场的应用" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_2_2">
+<span class="md-nav__icon md-icon"></span>
+          静电场的应用
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/3.2/3.2.1/">
+        电容
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/3.2/3.2.2/">
+        带电粒子在电场中的运动
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/3.2/3.2.3/">
+        3.2.3
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_3" id="__nav_5_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_3">
+          选择性必修一
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="选择性必修一" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+          选择性必修一
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5_3_1" id="__nav_5_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_3_1">
+          动量守恒定律
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="动量守恒定律" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_5_3_1">
+<span class="md-nav__icon md-icon"></span>
+          动量守恒定律
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/phy/4.1/4.1.1/">
+        动量
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6">
+          政治
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="政治" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          政治
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_6_1" id="__nav_6_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_1">
+          必修三
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="必修三" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_1">
+<span class="md-nav__icon md-icon"></span>
+          必修三
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/pol/3.1/">
+        中国共产党的领导
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/pol/3.2/">
+        人民当家做主
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/pol/3.3/">
+        3.3
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_6_2" id="__nav_6_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_2">
+          必修四
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="必修四" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_2">
+<span class="md-nav__icon md-icon"></span>
+          必修四
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/pol/4.1/">
+        探索世界与把握规律
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/pol/4.2/">
+        4.2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/pol/4.3/">
+        4.3
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_7" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7">
+          帮助
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="帮助" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+          帮助
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="art/help/guide/">
+        向导
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden="">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="_1">我能吞下玻璃而不伤身体<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<ol>
+<li><strong>Sanskrit</strong>: ﻿काचं शक्नोम्यत्तुम् । नोपहिनस्ति माम् ॥</li>
+<li><strong>Sanskrit</strong> <em>(standard transcription):</em> kācaṃ śaknomyattum; nopahinasti mām.</li>
+<li><strong>Classical Greek</strong>: ὕαλον ϕαγεῖν δύναμαι· τοῦτο οὔ με βλάπτει.</li>
+<li><strong>Greek</strong> (monotonic): Μπορώ να φάω σπασμένα γυαλιά χωρίς να πάθω τίποτα.</li>
+<li><strong>Greek</strong> (polytonic): Μπορῶ νὰ φάω σπασμένα γυαλιὰ χωρὶς νὰ πάθω τίποτα.<br/>
+<strong>Etruscan</strong>: (NEEDED)</li>
+<li><strong>Latin</strong>: Vitrum edere possum; mihi non nocet.</li>
+<li><strong>Old French</strong>: Je puis mangier del voirre. Ne me nuit.</li>
+<li><strong>French</strong>: Je peux manger du verre, ça ne me fait pas mal.</li>
+<li><strong>Provençal / Occitan</strong>: Pòdi manjar de veire, me nafrariá pas.</li>
+<li><strong>Québécois</strong>: J’peux manger d’la vitre, ça m’fa pas mal.</li>
+<li><strong>Walloon</strong>: Dji pou magnî do vêre, çoula m’ freut nén må.<br/>
+<strong>Champenois</strong>: (NEEDED)<br/>
+<strong>Lorrain</strong>: (NEEDED)</li>
+<li><strong>Picard</strong>: Ch’peux mingi du verre, cha m’foé mie n’ma.<br/>
+<strong>Corsican/Corsu</strong>: (NEEDED)<br/>
+<strong>Jèrriais</strong>: (NEEDED)</li>
+<li><strong>Kreyòl Ayisyen</strong> (Haitï): Mwen kap manje vè, li pa blese’m.</li>
+<li><strong>Basque</strong>: Kristala jan dezaket, ez dit minik ematen.</li>
+<li><strong>Catalan / Català</strong>: Puc menjar vidre, que no em fa mal.</li>
+<li><strong>Spanish</strong>: Puedo comer vidrio, no me hace daño.</li>
+<li><strong>Aragonés</strong>: Puedo minchar beire, no me’n fa mal .<br/>
+<strong>Aranés</strong>: (NEEDED)<br/>
+<strong>Mallorquín</strong>: (NEEDED)</li>
+<li><strong>Galician</strong>: Eu podo xantar cristais e non cortarme.</li>
+<li><strong>European Portuguese</strong>: Posso comer vidro, não me faz mal.</li>
+<li><strong>Brazilian Portuguese</strong> : Posso comer vidro, não me machuca.</li>
+<li><strong>Caboverdiano/Kabuverdianu</strong> (Cape Verde): M’ podê cumê vidru, ca ta maguâ-m’.</li>
+<li><strong>Papiamentu</strong>: Ami por kome glas anto e no ta hasimi daño.</li>
+<li><strong>Italian</strong>: Posso mangiare il vetro e non mi fa male.</li>
+<li><strong>Milanese</strong>: Sôn bôn de magnà el véder, el me fa minga mal.</li>
+<li><strong>Roman</strong>: Me posso magna’ er vetro, e nun me fa male.</li>
+<li><strong>Napoletano</strong>: M’ pozz magna’ o’vetr, e nun m’ fa mal.</li>
+<li><strong>Venetian</strong>: Mi posso magnare el vetro, no’l me fa mae.</li>
+<li><strong>Zeneise</strong> <em>(Genovese):</em> Pòsso mangiâ o veddro e o no me fà mâ.</li>
+<li><strong>Sicilian</strong>: Puotsu mangiari u vitru, nun mi fa mali.<br/>
+<strong>Campinadese</strong> (Sardinia): (NEEDED)<br/>
+<strong>Lugudorese</strong> (Sardinia): (NEEDED)</li>
+<li><strong>Romansch (Grischun)</strong>: Jau sai mangiar vaider, senza che quai fa donn a mai.<br/>
+<strong>Romany / Tsigane</strong>: (NEEDED)</li>
+<li><strong>Romanian</strong>: Pot să mănânc sticlă și ea nu mă rănește.</li>
+<li><strong>Esperanto</strong>: Mi povas manĝi vitron, ĝi ne damaĝas min.<br/>
+<strong>Pictish</strong>: (NEEDED)<br/>
+<strong>Breton</strong>: (NEEDED)</li>
+<li><strong>Cornish</strong>: Mý a yl dybry gwéder hag éf ny wra ow ankenya.</li>
+<li><strong>Welsh</strong>: Dw i’n gallu bwyta gwydr, ‘dyw e ddim yn gwneud dolur i mi.</li>
+<li><strong>Manx Gaelic</strong>: Foddym gee glonney agh cha jean eh gortaghey mee.</li>
+<li><strong>Old Irish</strong> <em>(Ogham):</em> ᚛᚛ᚉᚑᚅᚔᚉᚉᚔᚋ ᚔᚈᚔ ᚍᚂᚐᚅᚑ ᚅᚔᚋᚌᚓᚅᚐ᚜</li>
+<li><strong>Old Irish</strong> <em>(Latin):</em> Con·iccim ithi nglano. Ním·géna.</li>
+<li><strong>Irish</strong>: Is féidir liom gloinne a ithe. Ní dhéanann sí dochar ar bith dom.</li>
+<li><strong>Ulster Gaelic</strong>: Ithim-sa gloine agus ní miste damh é.</li>
+<li><strong>Scottish Gaelic</strong>: S urrainn dhomh gloinne ithe; cha ghoirtich i mi.</li>
+<li><strong>Anglo-Saxon</strong> <em>(Runes):</em> ᛁᚳ᛫ᛗᚨᚷ᛫ᚷᛚᚨᛋ᛫ᛖᚩᛏᚪᚾ᛫ᚩᚾᛞ᛫ᚻᛁᛏ᛫ᚾᛖ᛫ᚻᛖᚪᚱᛗᛁᚪᚧ᛫ᛗᛖ᛬</li>
+<li><strong>Anglo-Saxon</strong> <em>(Latin):</em> Ic mæg glæs eotan ond hit ne hearmiað me.</li>
+<li><strong>Middle English</strong>: Ich canne glas eten and hit hirtiþ me nouȝt.</li>
+<li><strong>English</strong>: I can eat glass and it doesn’t hurt me.</li>
+<li><strong>English</strong> <em>(IPA):</em> [aɪ kæn iːt glɑːs ænd ɪt dɐz nɒt hɜːt miː] (Received Pronunciation)</li>
+<li><strong>English</strong> <em>(Braille):</em> ⠊⠀⠉⠁⠝⠀⠑⠁⠞⠀⠛⠇⠁⠎⠎⠀⠁⠝⠙⠀⠊⠞⠀⠙⠕⠑⠎⠝⠞⠀⠓⠥⠗⠞⠀⠍⠑</li>
+<li><strong>Jamaican</strong>: Mi kian niam glas han i neba hot mi.</li>
+<li><strong>Lalland Scots / Doric</strong>: Ah can eat gless, it disnae hurt us.<br/>
+<strong>Glaswegian</strong>: (NEEDED)</li>
+<li><strong>Gothic</strong> : 𐌼𐌰𐌲 𐌲𐌻𐌴𐍃 𐌹̈𐍄𐌰𐌽, 𐌽𐌹 𐌼𐌹𐍃 𐍅𐌿 𐌽𐌳𐌰𐌽 𐌱𐍂𐌹𐌲𐌲𐌹𐌸.</li>
+<li><strong>Old Norse</strong> <em>(Runes):</em> ᛖᚴ ᚷᛖᛏ ᛖᛏᛁ ᚧ ᚷᛚᛖᚱ ᛘᚾ ᚦᛖᛋᛋ ᚨᚧ ᚡᛖ ᚱᚧᚨ ᛋᚨᚱ</li>
+<li><strong>Old Norse</strong> <em>(Latin):</em> Ek get etið gler án þess að verða sár.</li>
+<li><strong>Norsk / Norwegian (Nynorsk):</strong> Eg kan eta glas utan å skada meg.</li>
+<li><strong>Norsk / Norwegian (Bokmål):</strong> Jeg kan spise glass uten å skade meg.</li>
+<li><strong>Føroyskt / Faroese</strong>: Eg kann eta glas, skaðaleysur.</li>
+<li><strong>Íslenska / Icelandic</strong>: Ég get etið gler án þess að meiða mig.</li>
+<li><strong>Svenska / Swedish</strong>: Jag kan äta glas utan att skada mig.</li>
+<li><strong>Dansk / Danish</strong>: Jeg kan spise glas, det gør ikke ondt på mig.</li>
+<li><strong>Sønderjysk</strong>: Æ ka æe glass uhen at det go mæ naue.</li>
+<li><strong>Frysk / Frisian</strong>: Ik kin glês ite, it docht me net sear.</li>
+<li><strong>Nederlands / Dutch</strong>: Ik kan glas eten, het doet mĳ geen kwaad.</li>
+<li><strong>Kirchröadsj/Bôchesserplat</strong>: Iech ken glaas èèse, mer ‘t deet miech jing pieng.</li>
+<li><strong>Afrikaans</strong>: Ek kan glas eet, maar dit doen my nie skade nie.</li>
+<li><strong>Lëtzebuergescht / Luxemburgish</strong>: Ech kan Glas iessen, daat deet mir nët wei.</li>
+<li><strong>Deutsch / German</strong>: Ich kann Glas essen, ohne mir zu schaden.</li>
+<li><strong>Ruhrdeutsch</strong>: Ich kann Glas verkasematuckeln, ohne dattet mich wat jucken tut.</li>
+<li><strong>Langenfelder Platt</strong>: Isch kann Jlaas kimmeln, uuhne datt mich datt weh dääd.</li>
+<li><strong>Lausitzer Mundart</strong> (“Lusatian”): Ich koann Gloos assn und doas dudd merr ni wii.</li>
+<li><strong>Odenwälderisch</strong>: Iech konn glaasch voschbachteln ohne dass es mir ebbs daun doun dud.</li>
+<li><strong>Sächsisch / Saxon</strong>: ‘sch kann Glos essn, ohne dass’sch mer wehtue.</li>
+<li><strong>Pfälzisch</strong>: Isch konn Glass fresse ohne dasses mer ebbes ausmache dud.</li>
+<li><strong>Schwäbisch / Swabian</strong>: I kå Glas frässa, ond des macht mr nix!</li>
+<li><strong>Deutsch (Voralberg)</strong>: I ka glas eassa, ohne dass mar weh tuat.</li>
+<li><strong>Bayrisch / Bavarian</strong>: I koh Glos esa, und es duard ma ned wei.</li>
+<li><strong>Allemannisch</strong>: I kaun Gloos essen, es tuat ma ned weh.</li>
+<li><strong>Schwyzerdütsch</strong> (Zürich): Ich chan Glaas ässe, das schadt mir nöd.</li>
+<li><strong>Schwyzerdütsch</strong> (Luzern): Ech cha Glâs ässe, das schadt mer ned.<br/>
+<strong>Plautdietsch</strong>: (NEEDED)</li>
+<li><strong>Hungarian</strong>: Meg tudom enni az üveget, nem lesz tőle bajom.</li>
+<li><strong>Suomi / Finnish</strong>: Voin syödä lasia, se ei vahingoita minua.</li>
+<li><strong>Sami (Northern)</strong>: Sáhtán borrat lása, dat ii leat bávččas.</li>
+<li><strong>Erzian</strong>: Мон ярсан суликадо, ды зыян эйстэнзэ а ули.</li>
+<li><strong>Northern Karelian</strong>: Mie voin syvvä lasie ta minla ei ole kipie.</li>
+<li><strong>Southern Karelian</strong>: Minä voin syvvä st’oklua dai minule ei ole kibie.<br/>
+<strong>Vepsian</strong>: (NEEDED)<br/>
+<strong>Votian</strong>: (NEEDED)<br/>
+<strong>Livonian</strong>: (NEEDED)</li>
+<li><strong>Estonian</strong>: Ma võin klaasi süüa, see ei tee mulle midagi.</li>
+<li><strong>Latvian</strong>: Es varu ēst stiklu, tas man nekaitē.</li>
+<li><strong>Lithuanian</strong>: Aš galiu valgyti stiklą ir jis manęs nežeidžia<br/>
+<strong>Old Prussian</strong>: (NEEDED)<br/>
+<strong>Sorbian</strong> (Wendish): (NEEDED)</li>
+<li><strong>Czech</strong>: Mohu jíst sklo, neublíží mi.</li>
+<li><strong>Slovak</strong>: Môžem jesť sklo. Nezraní ma.</li>
+<li><strong>Polska / Polish</strong>: Mogę jeść szkło i mi nie szkodzi.</li>
+<li><strong>Slovenian:</strong> Lahko jem steklo, ne da bi mi škodovalo.</li>
+<li><strong>Bosnian, Croatian, Montenegrin and Serbian</strong> <em>(Latin)</em>: Ja mogu jesti staklo, i to mi ne šteti.</li>
+<li><strong>Bosnian, Montenegrin and Serbian</strong> <em>(Cyrillic)</em>: Ја могу јести стакло, и то ми не штети.</li>
+<li><strong>Macedonian:</strong> Можам да јадам стакло, а не ме штета.</li>
+<li><strong>Russian</strong>: Я могу есть стекло, оно мне не вредит.</li>
+<li><strong>Belarusian</strong> <em>(Cyrillic):</em> Я магу есці шкло, яно мне не шкодзіць.</li>
+<li><strong>Belarusian</strong> <em>(Lacinka):</em> Ja mahu jeści škło, jano mne ne škodzić.</li>
+<li><strong>Ukrainian</strong>: Я можу їсти скло, і воно мені не зашкодить.</li>
+<li><strong>Bulgarian</strong>: Мога да ям стъкло, то не ми вреди.</li>
+<li><strong>Georgian</strong>: მინას ვჭამ და არა მტკივა.</li>
+<li><strong>Armenian</strong>: Կրնամ ապակի ուտել և ինծի անհանգիստ չըներ։</li>
+<li><strong>Albanian</strong>: Unë mund të ha qelq dhe nuk më gjen gjë.</li>
+<li><strong>Turkish</strong>: Cam yiyebilirim, bana zararı dokunmaz.</li>
+<li><strong>Turkish</strong> <em>(Ottoman):</em> جام ييه بلورم بڭا ضررى طوقونمز</li>
+<li><strong>Tatar</strong>: Алам да бар, пыяла, әмма бу ранит мине.</li>
+<li><strong>Uzbek</strong> / <strong>O’zbekcha:</strong> <em>(Roman):</em> Men shisha yeyishim mumkin, ammo u menga zarar keltirmaydi.</li>
+<li><strong>Uzbek</strong> / <strong>Ўзбекча</strong> <em>(Cyrillic)</em>: Мен шиша ейишим мумкин, аммо у менга зарар келтирмайди.</li>
+<li><strong>Bangla / Bengali</strong>: আমি কাঁচ খেতে পারি, তাতে আমার কোনো ক্ষতি হয় না।</li>
+<li><strong>Marathi</strong>: मी काच खाऊ शकतो, मला ते दुखत नाही.</li>
+<li><strong>Kannada</strong>: ನನಗೆ ಹಾನಿ ಆಗದೆ, ನಾನು ಗಜನ್ನು ತಿನಬಹುದು</li>
+<li><strong>Hindi</strong>: मैं काँच खा सकता हूँ और मुझे उससे कोई चोट नहीं पहुंचती.</li>
+<li><strong>Malayalam</strong>: എനിക്ക് ഗ്ലാസ് തിന്നാം. അതെന്നെ വേദനിപ്പിക്കില്ല.</li>
+<li><strong>Tamil</strong>: நான் கண்ணாடி சாப்பிடுவேன், அதனால் எனக்கு ஒரு கேடும் வராது.</li>
+<li><strong>Telugu</strong>: నేను గాజు తినగలను మరియు అలా చేసినా నాకు ఏమి ఇబ్బంది లేదు</li>
+<li><strong>Sinhalese</strong>: මට වීදුරු කෑමට හැකියි. එයින් මට කිසි හානියක් සිදු නොවේ.</li>
+<li><strong>Urdu</strong>: میں کانچ کھا سکتا ہوں اور مجھے تکلیف نہیں ہوتی ۔</li>
+<li><strong>Pashto</strong>: زه شيشه خوړلې شم، هغه ما نه خوږوي</li>
+<li><strong>Farsi / Persian</strong>: .من می توانم بدونِ احساس درد شيشه بخورم</li>
+<li><strong>Arabic</strong>: أنا قادر على أكل الزجاج و هذا لا يؤلمني.<br/>
+<strong>Aramaic</strong>: (NEEDED)</li>
+<li><strong>Maltese</strong>: Nista’ niekol il-ħġieġ u ma jagħmilli xejn.</li>
+<li><strong>Hebrew</strong>: אני יכול לאכול זכוכית וזה לא מזיק לי.</li>
+<li><strong>Yiddish</strong>: איך קען עסן גלאָז און עס טוט מיר נישט װײ.<br/>
+<strong>Judeo-Arabic</strong>: (NEEDED)<br/>
+<strong>Ladino</strong>: (NEEDED)<br/>
+<strong>Gǝʼǝz</strong>: (NEEDED)<br/>
+<strong>Amharic</strong>: (NEEDED)</li>
+<li><strong>Twi</strong>: Metumi awe tumpan, ɜnyɜ me hwee.</li>
+<li><strong>Hausa</strong> (<em>Latin</em>): Inā iya taunar gilāshi kuma in gamā lāfiyā.</li>
+<li><strong>Hausa</strong> (<em>Ajami</em>) : إِنا إِىَ تَونَر غِلَاشِ كُمَ إِن غَمَا لَافِىَا</li>
+<li><strong>Yoruba</strong>: Mo lè je̩ dígí, kò ní pa mí lára.</li>
+<li><strong>Lingala</strong>: Nakokí kolíya biténi bya milungi, ekosála ngáí mabé tɛ́.</li>
+<li><strong>(Ki)Swahili</strong>: Naweza kula bilauri na sikunyui.</li>
+<li><strong>Malay</strong>: Saya boleh makan kaca dan ia tidak mencederakan saya.</li>
+<li><strong>Tagalog</strong>: Kaya kong kumain nang bubog at hindi ako masaktan.</li>
+<li><strong>Chamorro</strong>: Siña yo’ chumocho krestat, ti ha na’lalamen yo’.</li>
+<li><strong>Fijian</strong>: Au rawa ni kana iloilo, ia au sega ni vakacacani kina.</li>
+<li><strong>Javanese</strong>: Aku isa mangan beling tanpa lara.</li>
+<li><strong>Burmese</strong> (Unicode 4.0): က္ယ္ဝန္‌တော္‌၊က္ယ္ဝန္‌မ မ္ယက္‌စားနုိင္‌သည္‌။ ၎က္ရောင္‌့ ထိခုိက္‌မ္ဟု မရ္ဟိပာ။ </li>
+<li><strong>Burmese</strong> (Unicode 5.0): ကျွန်တော် ကျွန်မ မှန်စားနိုင်တယ်။ ၎င်းကြောင့် ထိခိုက်မှုမရှိပါ။ </li>
+<li><strong>Vietnamese (quốc ngữ)</strong>: Tôi có thể ăn thủy tinh mà không hại gì.</li>
+<li><strong>Vietnamese (nôm)</strong> : 些 𣎏 世 咹 水 晶 𦓡 空 𣎏 害 咦</li>
+<li><strong>Khmer</strong>: ខ្ញុំអាចញុំកញ្ចក់បាន ដោយគ្មានបញ្ហារ</li>
+<li><strong>Lao</strong>: ຂອ້ຍກິນແກ້ວໄດ້ໂດຍທີ່ມັນບໍ່ໄດ້ເຮັດໃຫ້ຂອ້ຍເຈັບ.</li>
+<li><strong>Thai</strong>: ฉันกินกระจกได้ แต่มันไม่ทำให้ฉันเจ็บ</li>
+<li><strong>Mongolian</strong> <em>(Cyrillic):</em> Би шил идэй чадна, надад хортой биш</li>
+<li><strong>Mongolian</strong> <em>(Classic)</em> : ᠪᠢ ᠰᠢᠯᠢ ᠢᠳᠡᠶᠦ ᠴᠢᠳᠠᠨᠠ ᠂ ᠨᠠᠳᠤᠷ ᠬᠣᠤᠷᠠᠳᠠᠢ ᠪᠢᠰᠢ<br/>
+<strong>Dzongkha</strong>: (NEEDED)</li>
+<li><strong>Nepali</strong>: ﻿म काँच खान सक्छू र मलाई केहि नी हुन्‍न् ।</li>
+<li><strong>Tibetan</strong>: ཤེལ་སྒོ་ཟ་ནས་ང་ན་གི་མ་རེད།</li>
+<li><strong>Chinese</strong>: 我能吞下玻璃而不伤身体。</li>
+<li><strong>Chinese</strong> (Traditional): 我能吞下玻璃而不傷身體。</li>
+<li><strong>Taiwanese</strong>: Góa ē-tàng chia̍h po-lê, mā bē tio̍h-siong.</li>
+<li><strong>Japanese</strong>: 私はガラスを食べられます。それは私を傷つけません。</li>
+<li><strong>Korean</strong>: 나는 유리를 먹을 수 있어요. 그래도 아프지 않아요</li>
+<li>
+<p><strong>Bislama</strong>: Mi save kakae glas, hemi no save katem mi.  </p>
+</li>
+<li>
+<p><strong>Hawaiian</strong>: Hiki iaʻu ke ʻai i ke aniani; ʻaʻole nō lā au e ʻeha.  </p>
+</li>
+<li>
+<p><strong>Marquesan</strong>: E koʻana e kai i te karahi, mea ʻā, ʻaʻe hauhau.</p>
+</li>
+<li><strong>Inuktitut</strong> : ᐊᓕᒍᖅ ᓂᕆᔭᕌᖓᒃᑯ ᓱᕋᙱᑦᑐᓐᓇᖅᑐᖓ</li>
+<li><strong>Chinook Jargon:</strong> Naika məkmək kakshət labutay, pi weyk ukuk munk-sik nay.</li>
+<li><strong>Navajo</strong>: Tsésǫʼ yishą́ągo bííníshghah dóó doo shił neezgai da.<br/>
+<strong>Cherokee</strong> <em>(and Cree, Chickasaw, Cree, Micmac, Ojibwa, Lakota, Náhuatl, Quechua, Aymara, and other American languages):</em> (NEEDED)<br/>
+<strong>Garifuna</strong>: (NEEDED)<br/>
+<strong>Gullah</strong>: (NEEDED)</li>
+<li><strong>Lojban</strong>: mi kakne le nu citka le blaci .iku’i le se go’i na xrani mi</li>
+<li><strong>Nórdicg</strong>: Ljœr ye caudran créneþ ý jor cẃran.</li>
+</ol>
+<h1 id="_2">这只伶俐的棕色狐狸跳过一只懒惰的狗<a class="headerlink" href="#_2" title="Permanent link">¶</a></h1>
+<ol>
+<li><strong>English:</strong> The quick brown fox jumps over the lazy dog.</li>
+<li><strong>Jamaican:</strong> Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?</li>
+<li><strong>Irish:</strong> “An ḃfuil do ċroí ag bualaḋ ó ḟaitíos an ġrá a ṁeall lena ṗóg éada ó ṡlí do leasa ṫú?” “D’ḟuascail Íosa Úrṁac na hÓiġe Beannaiṫe pór Éava agus Áḋaiṁ.”</li>
+<li><strong>Dutch:</strong> Pa’s wĳze lynx bezag vroom het fikse aquaduct.</li>
+<li><strong>German:</strong> Falsches Üben von Xylophonmusik quält jeden größeren Zwerg. </li>
+<li><strong>German:</strong> Im finſteren Jagdſchloß am offenen Felsquellwaſſer patzte der affig-flatterhafte kauzig-höf‌liche Bäcker über ſeinem verſifften kniffligen C-Xylophon. </li>
+<li><strong>Norwegian:</strong> Blåbærsyltetøy (“blueberry jam”, includes every extra letter used in Norwegian).</li>
+<li><strong>Swedish:</strong> Flygande bäckasiner söka strax hwila på mjuka tuvor.</li>
+<li><strong>Icelandic:</strong> Sævör grét áðan því úlpan var ónýt.</li>
+<li><strong>Finnish:</strong>  Törkylempijävongahdus (This is a perfect pangram, every letter appears only once. Translating it is an art on its own, but I’ll say “rude lover’s yelp”. :-D)</li>
+<li><strong>Finnish:</strong>  Albert osti fagotin ja töräytti puhkuvan melodian. (Albert bought a bassoon and hooted an impressive melody.)</li>
+<li><strong>Finnish:</strong>  On sangen hauskaa, että polkupyörä on maanteiden jokapäiväinen ilmiö. (It’s pleasantly amusing, that the bicycle is an everyday sight on the roads.)</li>
+<li><strong>Polish:</strong> Pchnąć w tę łódź jeża lub osiem skrzyń fig.</li>
+<li><strong>Czech:</strong> Příliš žluťoučký kůň úpěl ďábelské ódy.</li>
+<li><strong>Slovak:</strong> Starý kôň na hŕbe kníh žuje tíško povädnuté ruže, na stĺpe sa ďateľ učí kvákať novú ódu o živote.</li>
+<li><strong>Slovenian:</strong> Šerif bo za domačo vajo spet kuhal žgance.</li>
+<li><strong>Greek</strong> (monotonic): ξεσκεπάζω την ψυχοφθόρα βδελυγμία</li>
+<li><strong>Greek</strong> (polytonic): ξεσκεπάζω τὴν ψυχοφθόρα βδελυγμία</li>
+<li><strong>Russian:</strong> Съешь же ещё этих мягких французских булок да выпей чаю.</li>
+<li><strong>Russian:</strong> В чащах юга жил-был цитрус? Да, но фальшивый экземпляр! ёъ.</li>
+<li><strong>Bulgarian:</strong> Жълтата дюля беше щастлива, че пухът, който цъфна, замръзна като гьон.</li>
+<li><strong>Sami (Northern):</strong> Vuol Ruoŧa geđggiid leat máŋga luosa ja čuovžža.</li>
+<li><strong>Hungarian:</strong> Árvíztűrő tükörfúrógép.</li>
+<li><strong>Spanish:</strong> El pingüino Wenceslao hizo kilómetros bajo exhaustiva lluvia y frío, añoraba a su querido cachorro.</li>
+<li><strong>Spanish:</strong> Volé cigüeña que jamás cruzó París, exhibe flor de kiwi y atún.</li>
+<li><strong>Portuguese:</strong> O próximo vôo à noite sobre o Atlântico, põe freqüentemente o único médico. </li>
+<li><strong>French:</strong> Les naïfs ægithales hâtifs pondant à Noël où il gèle sont sûrs d’être déçus en voyant leurs drôles d’œufs abîmés.</li>
+<li><strong>Esperanto:</strong> Eĥoŝanĝo ĉiuĵaŭde</li>
+<li><strong>Esperanto:</strong> Laŭ Ludoviko Zamenhof bongustas freŝa ĉeĥa manĝaĵo kun spicoj.</li>
+<li><strong>Hebrew:</strong> זה כיף סתם לשמוע איך תנצח קרפד עץ טוב בגן.</li>
+<li>
+<p><strong>Japanese</strong> (Hiragana):</p>
+<blockquote>
+<p>いろはにほへど　ちりぬるを<br/>
+わがよたれぞ　つねならむ<br/>
+うゐのおくやま　けふこえて<br/>
+あさきゆめみじ　ゑひもせず </p>
+</blockquote>
+</li>
+</ol>
+<pre><code>┌────────────────────────────────────────────┬───────────────────────────┐
+│  ________________ ______________________   └────────────────────────   ├───┐
+│ ___  ____/___    |__  ___/___  __/___  /_____ ______ ________________  │   │
+│ __  /_    __  /| |_____ \ __  /   __  / _  _ \_  __ `/__  ___/__  __ \ │   │
+│ _  __/    _  ___ |____/ / _  /    _  /  /  __// /_/ / _  /    _  / / / │   │
+│ /_/       /_/  |_|/____/  /_/     /_/   \___/ \__,_/  /_/     /_/ /_/. │   │
+│                                                         readthedocs.io │   │
+└─┬──────────────────────────────────────────────────────────────────────┘   │
+  │ Learn.Write.Improve.                               Github-DVIA/FASTlearn │
+  └──────────────────────────────────────────────────────────────────────────┘
+</code></pre>
+<div class="mermaid">graph TB
+fl[FASTlearn] --&gt; t(明白)
+fl --&gt; f(不明白)
+t --&gt; |完善| fl
+search --&gt; issue(打开议题)
+f --&gt; search(查阅资料)
+issue --&gt; t
+search --&gt; t
+search --&gt; f
+
+</div>
+<hr/>
+<div class="md-source-file">
+<small>
+    
+      最后更新:
+      2022-06-21
+    
+  </small>
+</div>
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            回到页面顶部
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="页脚" class="md-footer__inner md-grid">
+<a aria-label="下一页: 标签" class="md-footer__link md-footer__link--next" href="art/tags/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                下一页
+              </span>
+              标签
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      欢迎转载，欢迎提交。难免有误，开题探究。
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": ".", "features": ["search.suggest", "search.highlight", "navigation.tracking", "navigation.instant", "navigation.top", "navigation.expand", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky"], "search": "assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="assets/javascripts/bundle.a877e258.min.js"></script>
+<script src="load/javascripts/mermaid.min.js"></script>
+<script src="load/javascripts/mathjax.js"></script>
+<script src="load/javascripts/polyfill.min.js?features=es6"></script>
+<script src="load/javascripts/es5/tex-mml-chtml.js"></script>
+<script src="load/javascripts/es5/tex-chtml-full.js"></script>
+<script>mermaid.initialize({});</script></body>
+</html>
