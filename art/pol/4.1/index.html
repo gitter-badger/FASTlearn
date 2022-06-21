@@ -1170,12 +1170,18 @@
 <li>都有相互分离的倾向和趋势：相互排斥，相互对立</li>
 </ul>
 <p>同一性是相对的，斗争性是绝对的。没有斗争性就没有同一性。</p>
-<div class="mermaid">graph TB
+<div class="mermaid">graph LR
 mks{{马克思主义哲学}} --&gt; |揭示|law
 mks --&gt; |承认|conflict
 subgraph 物质与意识
 thing((物质)) --&gt; |决定| mind((意识))
-thing --&gt; obj[客观] &amp; run["运动"] &amp; link["联系"]
+thing --&gt; obj[客观] &amp; run["运动"] &amp; link["联系"] &amp; develop[发展]
+develop --- deve1{实质} --&gt; goto[前进] &amp; up[上升]
+develop --- deve2{形式} --&gt; ichange[量变] &amp; lchange[质变]
+ichange --- 数量或场所的变更 --&gt; 渐进 &amp; 不显著
+ichange --&gt;|"...的开始"| lchange
+lchange --- 根本性质的变化 --&gt; 显著
+lchange --&gt;|"...的准备"| ichange
 link --&gt; many[多种多样] &amp; obj
 run --&gt; obj &amp; many
 run --&gt; law[规律] &amp; is["绝对"] &amp; ever["永恒"]
@@ -1191,9 +1197,20 @@ part --&gt; |服从服务| whole
 part --&gt; |影响| whole
 end
 subgraph 矛盾
+2sides[矛盾双方] --&gt; A &amp; B
+A --&gt;|依赖| B --&gt;|依赖| A --&gt;|前提| B --&gt;|前提| A --&gt;|渗透| B --&gt;|渗透| A --&gt;|包含| B --&gt;|包含| A --&gt;|分离| B --&gt;|分离| A
+2sides --&gt; agst &amp; same
 conflict[矛盾]
 conflict --- opp["对立"]
 conflict --- uni[统一]
+opp --- agst[斗争性]
+agst --&gt; is
+agst --&gt;|不能脱离| same
+agst --&gt;|寓于| same
+uni --- same[同一性]
+uni --- sap[源泉动力]
+agst --- sap
+sap --&gt; develop
 end 矛盾
 </div>
 <hr/>
