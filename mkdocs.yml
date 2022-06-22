@@ -89,6 +89,7 @@ nav:
           - art/eng/archive-news/PSSMDAOGBGIHI.md
   - 数学:
       - 速查: 
+          - art/mat/formula/inequality.md
           - art/mat/formula/log.md
           - art/mat/formula/trigonometric.md
           - art/mat/formula/complex.md
