@@ -15,31 +15,23 @@ $\boldsymbol{a+0=0+a=a}$
 
 `a+b<=a+b`
 
-
 $\boldsymbol{|a+b|≤|a|+|b|}$
-
 
 `(a+b)+c=a+(b+c)`
 
-
 $\boldsymbol{(a+b)+c=a+(b+c)}$
-
 
 ### 平面向量的减法
 
 `-(-a)=a`
 
-
 $\boldsymbol{-(-a)=a}$
 
-
 `a+(-a)=(-a)+a=0`
-
 
 $\boldsymbol{a+(-a)=(-a)+a=0}$
 
 `a-b=a+(-b)`
-
 
 $\boldsymbol{a-b=a+(-b)}$
 
@@ -53,13 +45,11 @@ $\boldsymbol{(-a)+(-a)+(-a)=-3a}$
 
 `-3a=3a`
 
-
 $\boldsymbol{|-3a|=3|a|}$
 
 根据定义得：
 
 `l(ma)=(lm)a`
-
 
 $\boldsymbol{\lambda(\mu a)=(\lambda \mu)a}$
 

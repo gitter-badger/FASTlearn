@@ -244,6 +244,7 @@ hide:
   │ Learn.Write.Improve.                               Github-DVIA/FASTlearn │
   └──────────────────────────────────────────────────────────────────────────┘
 ```
+
 ```mermaid
 graph TB
 fl[FASTlearn] --> t(明白)

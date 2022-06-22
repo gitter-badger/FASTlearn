@@ -288,9 +288,9 @@ $\tan\alpha=\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}$
 
 ### 两角积
 
-$\sin\alpha\sin\beta=-\frac{1}2[\cos(\alpha+\beta)-\cos(\alpha-\beta)]$
+$\sin^2\alpha=\sin\alpha\sin\beta=-\frac{1}2[\cos(\alpha+\beta)-\cos(\alpha-\beta)]$
 
-$\cos\alpha\cos\beta=-\frac{1}2[\cos(\alpha+\beta)+\cos(\alpha-\beta)]$
+$\cos^2\alpha=\cos\alpha\cos\beta=-\frac{1}2[\cos(\alpha+\beta)+\cos(\alpha-\beta)]$
 
 $\sin\alpha\cos\beta=\frac{1}2[\sin(\alpha+\beta)+\sin(\alpha-\beta)]$
 
